@@ -1,0 +1,55 @@
+{
+  "name": "Sando-Token",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://sandotoken.io/",
+  "scripts": {
+    "gcp-predeploy": "find ./build -name '\\[...*' -exec bash -c 'mv \"$1\" \"${1/.../@@@}\"' -- {} \\;",
+    "gcp-build": "npm run build",
+    "install:clean": "rm -rf node_modules && rm yarn.lock && yarn",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "debug:dev": "NODE_OPTIONS='--inspect' next dev",
+    "check-types": "tsc",
+    "check-lint": "eslint . --ignore-path .gitignore",
+    "check-format": "prettier --list-different --ignore-path .gitignore .",
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "format": "prettier --write --list-different --ignore-path .gitignore .",
+    "validate": "npm-run-all --parallel check-types lint format",
+    "validate:build": "npm-run-all --parallel validate build",
+    "prepare": "husky install",
+    "deploy": "gcloud config set project geometric-rex-343406 && gcloud app deploy app.yaml --version=0-1-0"
+  },
+  "dependencies": {
+    "@badrap/bar-of-progress": "0.1.2",
+    "@headlessui/react": "1.4.1",
+    "@heroicons/react": "1.0.4",
+    "next": "11.1.2",
+    "next-seo": "4.26.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "3.21.1",
+    "slugify": "1.6.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@types/react": "17.0.19",
+    "autoprefixer": "^10.4.2",
+    "cross-env": "7.0.3",
+    "eslint": "7.32.0",
+    "eslint-config-galex": "2.16.11",
+    "husky": ">=6",
+    "lint-staged": ">=11.1.2",
+    "npm-run-all": "4.1.5",
+    "postcss": "^8.4.5",
+    "prettier": "2.3.2",
+    "tailwindcss": "^3.0.15",
+    "typescript": "4.4.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "yarn lint",
+    "*.{js,jsx,ts,tsx,css,json,md}": "yarn format"
+  }
+}
