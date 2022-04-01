@@ -7,7 +7,7 @@ function Header(): JSX.Element {
     >
       <div className="relative mx-auto container">
         <nav className="flex justify-between text-white ">
-          <div className="flex px-5 py-6 xl:px-12 flex w-full items-center ">
+          <div className="flex px-5 py-6 xl:px-12  w-full items-center ">
           <a className="flex  font-heading" href="/">
               <img src="/images/sando-logo-text.png" alt="sando logo image" className="w-10/12"/>
             </a>
@@ -42,14 +42,18 @@ function Header(): JSX.Element {
               </li>
 
               <li>
-                <a className="hover:text-gray-200 mr-20" href="/buy">
+                <a className="hover:text-gray-200 mr-40" href="/buy">
                   Buy
                 </a>
               </li>          
              
               <li>
-                <a className="hover:text-gray-200 ml-20" href="/login">
-                  Login | Register
+                <a className="hover:text-gray-200" href="/login">
+                  Login 
+                </a>
+             <span className='mx-3'>|</span>
+                <a className="hover:text-gray-200 " href="/register">
+                   Register
                 </a>
               </li>
              
