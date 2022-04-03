@@ -2,6 +2,13 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import MainLayout from "src/layout/MainLayout";
 
+interface FormInput {
+  email: string;
+  username: string;
+  password: string;
+  confirmedPassword: string;
+}
+
 const Register = (): JSX.Element => {
   let status;
 
@@ -10,7 +17,8 @@ const Register = (): JSX.Element => {
     handleSubmit,
     watch,
     formState: { errors },
-  } = useForm({
+  } = useForm<FormInput>({
+    mode: "onChange",
     defaultValues: {
       email: "",
       username: "",
@@ -77,6 +85,7 @@ const Register = (): JSX.Element => {
               <input
                 {...register("email", { required: true })}
                 type="email"
+                name="email"
                 className="mb-3 rounded-3xl bg-[#EBEBEB] focus:outline-none border border-[#C4C4C4] w-full py-2 px-5 mt-2"
               />
               {errors.email && (
@@ -104,12 +113,15 @@ const Register = (): JSX.Element => {
                 Username <span className="text-red-600">*</span>
               </span>
               <input
-                {...register("username", { required: true })}
+                {...register("username", {
+                  required: true,
+                  maxLength: 20,
+                })}
                 type="text"
-                maxLength={20}
+                name="username"
                 className="mb-3 rounded-3xl bg-[#EBEBEB] focus:outline-none border border-[#C4C4C4] w-full py-2 px-5 mt-2"
               />
-              {errors.username && (
+              {errors?.username?.type === "required" && (
                 <p className="flex text-red-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -128,22 +140,7 @@ const Register = (): JSX.Element => {
                   This field is required
                 </p>
               )}
-            </label>
-            <label>
-              <span className="font-normal">
-                Password <span className="text-red-600">*</span>
-              </span>
-              <input
-                minLength={8}
-                {...register("password", { required: true, minLength: 8 })}
-                className="mb-3 rounded-3xl bg-[#EBEBEB] focus:outline-none border border-[#C4C4C4] text-black w-full py-2 px-5 mt-2"
-                name="password"
-                value={check.password}
-                type="password"
-                id="password"
-                onChange={handleInputChange}
-              />
-              {errors.password && (
+              {errors?.username?.type === "maxLength" && (
                 <p className="flex text-red-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +156,59 @@ const Register = (): JSX.Element => {
                       d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  This field is required and must contain at least 8 characters
+                  Username cannot exceed 20 characters
+                </p>
+              )}
+            </label>
+            <label>
+              <span className="font-normal">
+                Password <span className="text-red-600">*</span>
+              </span>
+              <input
+                {...register("password", { required: true, minLength: 8 })}
+                className="mb-3 rounded-3xl bg-[#EBEBEB] focus:outline-none border border-[#C4C4C4] text-black w-full py-2 px-5 mt-2"
+                name="password"
+                value={check.password}
+                type="password"
+                id="password"
+                onChange={handleInputChange}
+              />
+              {errors?.password?.type === "required" && (
+                <p className="flex text-red-600">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className=" h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  This field is required
+                </p>
+              )}
+              {errors?.password?.type === "minLength" && (
+                <p className="flex text-red-600">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className=" h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  Password must contain at least 8 characters
                 </p>
               )}
             </label>
@@ -168,7 +217,6 @@ const Register = (): JSX.Element => {
                 Confirm Password <span className="text-red-600">*</span>
               </span>
               <input
-                minLength={8}
                 {...register("confirmedPassword", {
                   required: true,
                   minLength: 8,
@@ -180,7 +228,7 @@ const Register = (): JSX.Element => {
                 id="confirm"
                 onChange={handleInputChange}
               />
-              {errors.confirmedPassword && (
+              {errors?.confirmedPassword?.type === "required" && (
                 <p className="flex text-red-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +244,26 @@ const Register = (): JSX.Element => {
                       d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  This field is required and must contain at least 8 characters
+                  This field is required
+                </p>
+              )}
+              {errors?.confirmedPassword?.type === "minLength" && (
+                <p className="flex text-red-600">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className=" h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  Password must contain at least 8 characters
                 </p>
               )}
             </label>
@@ -216,7 +283,7 @@ const Register = (): JSX.Element => {
                     d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                The passwords do not match
+                Passwords do not match
               </p>
             )}
 
