@@ -1,6 +1,7 @@
 import React from "react";
 
 const HeroSection = (): JSX.Element => {
+
   const [showModal, setShowModal] = React.useState(false);
 
   return (
@@ -107,7 +108,7 @@ const HeroSection = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                  <div className="backdrop-blur-lg fixed inset-0 z-40 "></div>
                 </>
               ) : null}
 

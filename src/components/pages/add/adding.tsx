@@ -16,31 +16,31 @@ const Adding = (): JSX.Element => {
                     alt="sando logo"
                     className="w-12 h-12"
                   />
-                  <h1 className="uppercase text-4xl font-black mt-2 cursor-poiter ml-2 mb-2">
+                  <h1 className="uppercase text-4xl font-black cursor-pointer mt-2 ml-2 mb-2">
                     Sando Token Address
                   </h1>
                 </div>
-                <p className="flex text-sm font-normal text-[#c4c4c4] cursor-pointer">
+                <p className="flex text-base font-normal text-[#c4c4c4]">
                   Name
-                  <h1 className="uppercase text-white ml-5 font-extrabold	">
+                  <h1 className="uppercase text-white text-base ml-5 font-extrabold	">
                     : sando
                   </h1>
                 </p>
-                <p className="flex text-sm font-normal text-[#c4c4c4] cursor-pointer">
+                <p className="flex text-base font-normal text-[#c4c4c4] mt-1">
                   Symbol
                   <h1 className="uppercase text-white ml-2 font-extrabold	">
                     : sando
                   </h1>
                 </p>
-                <p className="flex text-sm  font-normal text-[#c4c4c4]  cursor-pointer">
+                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1">
                   Decimal
-                  <h1 className="uppercase text-white ml-1 font-medium	">
+                  <h1 className="uppercase text-white ml-1 font-medium">
                     : 18
                   </h1>
                 </p>
-                <p className="flex text-sm  font-normal text-[#c4c4c4]  cursor-pointer">
+                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1 cursor-pointer">
                   Address :
-                  <a href=" " className="ml-1 font-medium text-[#ff0090]">
+                  <a href="" className="ml-1 font-medium text-[#ff0090]">
                     0xa8aB6A7fc3F3be783A212baE3aa8a866c99028e6
                   </a>
                 </p>
