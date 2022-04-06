@@ -284,15 +284,4 @@ th:not(:last-child) {
   display: block;
 }
 
-[data-feedback].error {
-  color: red;
-}
-[data-feedback].warning {
-  color: orange;
-}
-[data-feedback].info {
-  color: blue;
-}
-[data-feedback].when-valid {
-  color: green;
-}
+

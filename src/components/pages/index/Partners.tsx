@@ -31,7 +31,8 @@ const Partners = (): JSX.Element => {
             </div>
             <div className="">
               <a
-                href="http://sandora.io"
+              //  href="http://sandora.io"
+              href="/comingsoon"
                 className="mt-10 float-right bg-[#BB1CFC] hover:bg-[#a207df] text-white text-sm font-black py-1 px-6 rounded-full"
               >
                 Join
@@ -64,7 +65,8 @@ const Partners = (): JSX.Element => {
             </div>
             <div className="">
               <a
-                href="http://oceansky.io"
+                //href="http://oceansky.io"
+                href="/comingsoon"
                 className="mt-10 float-right bg-[#FB8700] hover:bg-[#c16f03] text-white text-sm font-black py-1 px-6 rounded-full"
               >
                 Join
@@ -97,7 +99,8 @@ const Partners = (): JSX.Element => {
             </div>
             <div className="">
               <a
-                href="http://metasando.io"
+               // href="http://metasando.io"
+               href="/comingsoon"
                 className="mt-10 float-right bg-[#00D512] hover:bg-[#02c012] text-white text-sm font-black py-1 px-6 rounded-full"
               >
                 Join

@@ -53,21 +53,21 @@ const Login = (): JSX.Element => {
   return (
     <>
       <div className="w-full h-screen">
-        <div className="my-10 mx-auto bg-[#171717] w-96 h-fit rounded-2xl p-5 text-white">
+        <div className="my-10 mx-auto bg-[#171717] w-96 h-fit rounded-2xl p-5 text-black">
           <div className="flex items-center justify-center pb-3">
             <img
-              src="/images/sando-logo.png"
-              alt="sando logo image"
-              className="w-12 h-12"
+             src="/images/sando-logo.png"
+             alt="sando logo image"
+             className="w-16 h-16"
             />
-            <h1 className="text-2xl ml-2 text-white font-extrabold">
-              SANDO TOKEN
+            <h1 className="uppercase text-2xl ml-2 mt-2 text-white font-extrabold">
+            Sando token
             </h1>
           </div>
-          <h1 className="text-xl font-bold">Login</h1>
+          <h1 className="text-xl font-bold text-white">Login</h1>
           <form className="pt-3" onSubmit={onSubmit} >
             <label>
-              <span className="font-normal">
+              <span className="font-normal text-white">
                 Email address <span className="text-red-600">*</span>
               </span>
               <input
@@ -99,7 +99,7 @@ const Login = (): JSX.Element => {
             </label>
 
             <label>
-              <span className="font-normal">
+              <span className="font-normal text-white">
                 Password <span className="text-red-600">*</span>
               </span>
               <input
@@ -134,7 +134,7 @@ const Login = (): JSX.Element => {
 
             <div className="flex justify-between items-center my-5 ">
               {/* TODO add Forget password function */}
-              <a href="/" className="text-[#65FFA3] underline   ">
+              <a href="/" className="text-[#65FFA3] underline ">
                 Forget password
               </a>
               <input
@@ -142,18 +142,18 @@ const Login = (): JSX.Element => {
                 disabled={status}
                 //onClick={onClickHandler}
                 type="submit"
-                className="cursor-pointer   items-end bg-[#FF0090] hover:bg-[#db037e] text-white text-sm font-bold py-2 px-10 rounded-3xl  "
+                className="cursor-pointer   items-end bg-[#FF0090] hover:bg-[#CC0274] text-white text-sm font-bold py-2 px-10 rounded-3xl  "
               />
             </div>
-            <span>
+            <span className="text-white">
               Don't have an account?{" "}
-              <a href="/register" className="underline font-bold">
+              <a href="/register" className="underline font-bold text-white">
                 Register
               </a>
             </span>
             <div className="w-full my-5 flex justify-center items-center">
-              <hr className="text-white w-1/3" />{" "}
-              <span className="mx-1">or Login with</span>{" "}
+              <hr className="text-white w-1/3" />
+              <span className="mx-1 text-white">or Login with</span>{" "}
               <hr className="text-white w-1/3" />
             </div>
             <div className="flex justify-center items-center space-x-7">
@@ -161,7 +161,7 @@ const Login = (): JSX.Element => {
                 <img src="/images/icons/google-icon.svg" alt="google-icon" />
               </a>
               <a href="/">
-                <img src="/images/icons/facebook-icon.svg" alt="google-icon" />
+                <img src="/images/icons/facebook-icon.svg" alt="facebook-icon" />
               </a>
             </div>
           </form>

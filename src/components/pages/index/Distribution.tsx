@@ -74,7 +74,7 @@ const Distribution = (): JSX.Element => {
              //</table>  style={{ backgroundImage: `url(${'./images/web/distribution-bg.png'})` }}
              >
          
-              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white">
+              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white  font-roboto">
                 <td className="font-roboto hover:text-gray-400 p-3  ml-20    text-left px-10">
                   Airdrop
                 </td>
@@ -85,8 +85,8 @@ const Distribution = (): JSX.Element => {
                 <td className="border-y-zinc-900  hover:text-gray-400 px-20">
                   25,000,000,000,000
                 </td>
-                <td className="border-y-zinc-900  hover:text-gray-400  px-10">
-                  Fully Unlocked
+                <td className="border-y-zinc-900  hover:text-gray-400 p-3">
+                 Locked for 8 Months 
                 </td>
               </tr>
 
@@ -123,7 +123,7 @@ const Distribution = (): JSX.Element => {
               </tr>
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white   bg-[#440B63] font-roboto">
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
-                  Pre-sale (ICO)
+                  Pre-Sale (ICO)
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
                   5%

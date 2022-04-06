@@ -3,7 +3,7 @@ import react from 'react'
 const Activity = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-20">
-      <h1 className="text-3xl font-bold text-white ml-10"> Your Activity</h1>
+      <h1 className="text-3xl font-bold text-white"> Your Activity</h1>
 
       {/* 
       <div className="flex flex-col justify-center items-center">
@@ -36,13 +36,13 @@ const Activity = (): JSX.Element => {
       </div>
  */}
 
-      <div className="grid grid-cols-3 gap-4 bg-[#ff0090] text-white text-center mt-10 rounded-[20px] mb-20">
+      <div className="grid grid-cols-3 gap-4 bg-[#ff0090] text-white text-center font-bold mt-10 rounded-[20px] mb-20">
         <div className="mt-5">Date</div>
         <div className="mt-5">Event</div>
         <div className="mt-5">Price</div>
         <div className="col-span-3 bg-[#0F0F0F] text-center h-50 py-20">
           <a
-            href="/"
+            href="/wallets"
             className="mt-10  bg-[#FF0090] hover:bg-[#CC0073] text-white text-center text-sm font-bold py-2 px-10 rounded-full"
           >
             Connect Wallet

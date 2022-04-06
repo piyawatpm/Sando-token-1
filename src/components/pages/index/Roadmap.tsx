@@ -2,7 +2,7 @@ import react from 'react'
 
 const Roadmap = (): JSX.Element => {
   return (
-    <div className="relative overflow-hidden mx-auto w-full container mb-10">
+    <div className="relative overflow-hidden mx-auto w-full container">
       <div className="flex flex-col  justify-center items-center">
         <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 px-10">
           <div

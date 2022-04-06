@@ -7,9 +7,9 @@ function Header(): JSX.Element {
     >
       <div className="relative mx-auto container">
         <nav className="flex justify-between text-white ">
-          <div className="flex px-5 py-6 xl:px-12  w-full items-center ">
+          <div className="flex px-5 py-6 xl:px-12 flex w-full items-center ">
           <a className="flex  font-heading" href="/">
-              <img src="/images/sando-logo-text.png" alt="sando logo image" className="w-10/12"/>
+              <img src="/images/sando-logo-text.png" alt="sando logo image" className="w-11/12"/>
             </a>
 
             {/*  Search component
@@ -42,21 +42,10 @@ function Header(): JSX.Element {
               </li>
 
               <li>
-                <a className="hover:text-gray-200 mr-40" href="/buy">
+                <a className="hover:text-gray-200 mr-20" href="/buy">
                   Buy
                 </a>
               </li>          
-             
-              <li>
-                <a className="hover:text-gray-200" href="/login">
-                  Login 
-                </a>
-             <span className='mx-3'>|</span>
-                <a className="hover:text-gray-200 " href="/register">
-                   Register
-                </a>
-              </li>
-             
             </ul>
 
             <div className="flex flex-col md:flex-row mt-5 md:mt-0 items-end md:items-center md:justify-end">
@@ -68,6 +57,9 @@ function Header(): JSX.Element {
                 Connect Wallet
               </button>
                */}
+                <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
+                <a href="/login">Login</a> | <a href="/register">Register</a>
+              </div>
               <button
                     // href="/"
                     className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-5 rounded-full"
