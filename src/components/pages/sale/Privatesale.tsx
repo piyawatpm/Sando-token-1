@@ -70,7 +70,7 @@ const Privatesale = (): JSX.Element => {
                           Market
                         </h3>
                         <p className="mb-4 text-base font-normal text-white ml-2">
-                          To the Mars
+                          To Mars
                         </p>
                       </li>
                     </ol>

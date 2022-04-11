@@ -38,16 +38,16 @@ const Roadmap = (): JSX.Element => {
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5   leading-2">
-                          <div className="text-white text-lg">5% Seed Sale</div>
+                          <div className="text-white text-lg">5% Seed Sales</div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            20% Private Sale
+                            20% Private Sales
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            5% Pre-Sale (ICO)
+                            5% Pre-Sales (ICO)
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
@@ -65,17 +65,17 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Create Social Networks
+                            Create social networks
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Start marketing Campaigns
+                            Start marketing campaigns
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Build a Strong Community
+                            Build a strong community
                           </div>
                         </li>
                       </ul>
@@ -101,7 +101,7 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            5% Public Sale (DEX)
+                            5% Public Sales (DEX)
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
@@ -111,17 +111,17 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Playform Status Feature
+                            Playform status feature
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Sando Pool Liquidity
+                            Sando pool liquidity
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Metaverse Marketplace of Metasando
+                            Metaverse marketplace of Metasando
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
@@ -131,7 +131,7 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Membership System: Stake and Interest
+                            Membership system: Stake and interest
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
@@ -164,7 +164,7 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
                           <div className="text-white text-lg">
-                            5% Public Sale (CEX)
+                            5% Public Sales (CEX)
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
@@ -172,7 +172,7 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
                           <div className="text-white text-lg">
-                            Launch Mobile App Version
+                            Launch mobile app version
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
@@ -182,7 +182,7 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
                           <div className="text-white text-lg">
-                            Launch Metaverse Game
+                            Launch Metaverse game
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
@@ -226,12 +226,12 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
                           <div className="text-white text-lg">
-                            Metaverse Game
+                            Metaverse game
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl">
                           <div className="text-white text-lg">
-                            Metaverse Shopping Mall
+                            Metaverse shopping mall
                           </div>
                         </li>
                       </ul>

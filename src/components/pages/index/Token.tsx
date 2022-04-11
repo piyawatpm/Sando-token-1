@@ -38,9 +38,8 @@ const Token = (): JSX.Element => {
 
                 <h1 className="text-xl font-light text-white mb-10 py-5 px-10">
                   Sando tokens are exchange and utility
-                  tokens  <br /> based on ERC-20 within our 
-                  ecosystem used <br />for crowdfunding to build
-                  our company <br /> operations and platforms.
+                  tokens  <br /> based on the ERC-20 standard use for crowdfunding <br /> within our 
+                  ecosystem to build our company <br /> operations and platforms.
                  
                 </h1>
                 <a

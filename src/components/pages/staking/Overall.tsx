@@ -17,7 +17,7 @@ const Overall = (): JSX.Element => {
                 <h1 className="text-2xl text-white font-bold">$0.88</h1>
                 <p className="text-xs text-[#41FA00] mt-2 ml-2">+0.25%</p>
               </div>
-              <p className="text-xs text-white ml-5">Today price</p>
+              <p className="text-xs text-white ml-5">Today's price</p>
             </div>
             <div className="mt-10 mb-5 mr-5">
               <a
@@ -42,7 +42,7 @@ const Overall = (): JSX.Element => {
                 <h1 className="text-2xl  font-bold">$0.00 </h1>
                 <p className="uppercase text-xs font-bold mt-2 ml-2">Sando</p>
               </div>
-              <p className="text-xs text-white ml-5">Your Staked</p>
+              <p className="text-xs text-white ml-5">Your Staked Amount</p>
             </div>
             <div className="mt-10 mb-5 mr-5">
               <a
