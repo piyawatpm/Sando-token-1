@@ -1,36 +1,42 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Footer = (): JSX.Element => {
   return (
     <footer
       className="bg-cover bg-no-repeat bg-[#0f0f0f]"
       // style={{ backgroundImage: `url(${'./images/Footer.svg'})` }}
-    
-
     >
       <div className="relative mx-auto container pb-5">
         <div className="grid grid-rows-2 mx-10 pt-10 pb-5">
           <div className="grid grid-cols-4 gap-2 px-5">
             <div className="col-span-2 ">
               <div className="flex">
-              <img src="/images/sando-logo.png" alt="sando logo image" className="w-20 mt-5"/>
-              <div>
-           
-              <img src="/images/sando-token-text.png" alt="sando logo text" className="h-1/4 mt-6 ml-3"/>
-             
-              <p className="text-white font-normal text-sm ml-3 mt-2">Currency used for our partners platforms : <br /> Oceansky, Sandora and Metasando.</p>
+                <img
+                  src="/images/sando-logo.svg"
+                  alt="sando logo image"
+                  className="w-20 mt-5"
+                />
+                <div>
+                  <img
+                    src="/images/sando-token-text.png"
+                    alt="sando logo text"
+                    className="h-1/4 mt-6 ml-3"
+                  />
+
+                  <p className="text-white font-normal text-sm ml-3 mt-2">
+                    Currency used for our partners platforms : <br /> Oceansky,
+                    Sandora and Metasando.
+                  </p>
+                </div>
               </div>
-              </div>
-       
             </div>
 
             <div className="col-span-2  ml-12">
-            <h1 className="mt-5 mb-3 font-bold text-white ml-10 px-10">
+              <h1 className="mt-5 mb-3 font-bold text-white ml-10 px-10">
                 Join the community
               </h1>
-            <div className="flex gap-3 ml-10 px-10">
-           
+              <div className="flex gap-3 ml-10 px-10">
                 <Link href="https://facebook.com/sandotoken">
                   <a target="_blank">
                     <img
@@ -41,71 +47,71 @@ const Footer = (): JSX.Element => {
                   </a>
                 </Link>
 
-                <Link href="https://twitter.com/@Sando_Token" >
-                <a target="_blank">
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/Twitter.png"
-                    alt="Twitter"
-                  />
-                </a>
+                <Link href="https://twitter.com/@Sando_Token">
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/Twitter.png"
+                      alt="Twitter"
+                    />
+                  </a>
                 </Link>
-               <Link href="https://instagram.com/Sandotoken">
-                <a  target="_blank"> 
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/Instagram.png"
-                    alt="Instagram"
-                  />
-                </a>
+                <Link href="https://instagram.com/Sandotoken">
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/Instagram.png"
+                      alt="Instagram"
+                    />
+                  </a>
                 </Link>
                 <Link href="https://youtube.com">
-                <a target="_blank">
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/Youtube.png"
-                    alt="Youtube"
-                  />
-                </a>
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/Youtube.png"
+                      alt="Youtube"
+                    />
+                  </a>
                 </Link>
-                <Link  href="https://tiktok.com/@sandotoken">
-                <a target="_blank">
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/TikTok.png"
-                    alt="TikTok"
-                  />
-                </a>
-               </Link>
-               <Link href="https://linkedin.com/">
-                <a  target="_blank">
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/Linkedin.png"
-                    alt="Linkedin"
-                  />
-                </a>
+                <Link href="https://tiktok.com/@sandotoken">
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/TikTok.png"
+                      alt="TikTok"
+                    />
+                  </a>
+                </Link>
+                <Link href="https://linkedin.com/">
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/Linkedin.png"
+                      alt="Linkedin"
+                    />
+                  </a>
                 </Link>
                 <Link href="https://discord.com/channels/955559445843284009/955559446585684020">
-                <a target="_blank">
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/Discord.png"
-                    alt="Discord"
-                  />
-                </a>
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/Discord.png"
+                      alt="Discord"
+                    />
+                  </a>
                 </Link>
                 <Link href="https://t.me/+hk4UEOF_HGdlNDI1">
-                <a target="_blank">
-                  <img
-                    className="h-10 w-10 opacity-75 hover:opacity-100"
-                    src="/images/social_media/Telegram.png"
-                    alt="Telegram"
-                  />
-                </a>
+                  <a target="_blank">
+                    <img
+                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      src="/images/social_media/Telegram.png"
+                      alt="Telegram"
+                    />
+                  </a>
                 </Link>
               </div>
-              </div>
+            </div>
             {/* 
             <div className="">
               <h1 className="mt-5 mb-3 font-bold text-white">Newsletter</h1>
@@ -148,90 +154,120 @@ const Footer = (): JSX.Element => {
           </div>
           <div className="grid grid-cols-4 gap-4 mb-5 px-10 ml-8 mt-2">
             <div className=" text-white ml-10">
-              <h5 className="text-[#ff0090] text-base font-bold pb-1">Resources</h5>
+              <h5 className="text-[#ff0090] text-base font-bold pb-1">
+                Resources
+              </h5>
               <ul>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/partners">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/partners"
+                  >
                     Partners
                   </a>
                 </li>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/comingsoon">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/comingsoon"
+                  >
                     Whitepaper
                   </a>
                 </li>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/gasfee">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/gasfee"
+                  >
                     Gas Fees Token
                   </a>
                 </li>
-               
               </ul>
             </div>
             <div className="text-white ml-20">
               <h5 className="text-[#ff0090] text-base font-bold pb-1">Token</h5>
               <ul>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/addsando"
+                  >
                     Sando
                   </a>
                 </li>
                 <li>
-                  <a className="font-normaltext-base  hover:text-gray-200" href="/sale">
+                  <a
+                    className="font-normaltext-base  hover:text-gray-200"
+                    href="/sale"
+                  >
                     Tokensale
                   </a>
                 </li>
-                
+
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/buy"
+                  >
                     Buy
                   </a>
                 </li>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/staking">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/staking"
+                  >
                     Staking
                   </a>
                 </li>
-
               </ul>
             </div>
             <div className="text-white ml-20">
               <h5 className="text-[#ff0090] text-base font-bold pb-1">About</h5>
               <ul>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/company"
+                  >
                     Company
                   </a>
                 </li>
                 <li>
-                  <a className="font-normal text-base hover:text-gray-200" href="/">
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/contactus"
+                  >
                     Contact us
                   </a>
                 </li>
-
               </ul>
             </div>
             <div className="text-white ml-20">
-              <h5 className="text-[#ff0090] font-bold text-base pb-1">Support</h5>
+              <h5 className="text-[#ff0090] font-bold text-base pb-1">
+                Support
+              </h5>
               <ul>
                 <li>
-                  <a className="font-normal hover:text-gray-200 text-base" href="/">
+                  <a
+                    className="font-normal hover:text-gray-200 text-base"
+                    href="/help"
+                  >
                     Help Center
                   </a>
                 </li>
-
               </ul>
             </div>
           </div>
         </div>
-        
+
         <div className="text-white text-sm mx-10 ml-20">
-          <span>Copyright &copy; 2022 SANDORA PTY LTD, All rights reserved</span>
+          <span>
+            Copyright &copy; 2022 SANDORA PTY LTD, All rights reserved
+          </span>
         </div>
-      
       </div>
-   
     </footer>
-  )
-}
-export default Footer
+  );
+};
+export default Footer;

@@ -6,13 +6,13 @@ const Adding = (): JSX.Element => {
     style={{ backgroundImage: `url(${'./images/sando-details/bg-details.png'})` }}
     >
       <div className="flex flex-col justify-center items-center">
-      <img src="/images/sando-logo.png" alt="sando logo image" className="w-48 mt-20 mb-10"/>
+      <img src="/images/sando-logo.svg" alt="sando logo image" className="w-48 mt-20 mb-10"/>
 
             <div className="py-10 px-20 bg-[#171717] rounded-2xl shadow-xl z-20">
               <div className="text-white text-left">
                 <div className="flex">
                   <img
-                    src="/images/web/sando-token-logo.png"
+                    src="/images/sando-logo.svg"
                     alt="sando logo"
                     className="w-12 h-12"
                   />
@@ -22,7 +22,7 @@ const Adding = (): JSX.Element => {
                 </div>
                 <p className="flex text-base font-normal text-[#c4c4c4]">
                   Name
-                  <h1 className="uppercase text-white text-base ml-5 font-extrabold	">
+                  <h1 className="uppercase text-white text-base ml-5 font-extrabold">
                     : sando
                   </h1>
                 </p>
@@ -38,7 +38,7 @@ const Adding = (): JSX.Element => {
                     : 18
                   </h1>
                 </p>
-                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1 cursor-pointer">
+                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1">
                   Address :
                   <a href="" className="ml-1 font-medium text-[#ff0090]">
                     0xa8aB6A7fc3F3be783A212baE3aa8a866c99028e6
@@ -53,7 +53,7 @@ const Adding = (): JSX.Element => {
               <div className="text-white">
                 <div className="flex justify-center items-center">
                   <img
-                    src="/images/web/sando-token-logo.png"
+                    src="/images/sando-logo.svg"
                     alt="sando logo"
                     className="w-12 h-12"
                   />
@@ -61,7 +61,7 @@ const Adding = (): JSX.Element => {
                     Add SANDO token in your METAMASK
                   </h1>
                   <img
-                    src="/images/wallets/metamask.png"
+                    src="/images/wallets/metamask.svg"
                     alt="metamask logo"
                     className="w-12 h-12 ml-2"
                   />

@@ -82,7 +82,7 @@ const HeroSection = (): JSX.Element => {
                           >
                             <div className="flex">
                               <img
-                                src="/images/wallets/metamask.png"
+                                src="/images/wallets/metamask.svg"
                                 className="w-12 "
                                 alt="metamask"
                               />

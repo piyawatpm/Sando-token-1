@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -24,30 +29,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/buy": [
+    "/addsando": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/buy.js"
+      "static/chunks/pages/addsando.js"
     ],
-    "/gasfee": [
+    "/comingsoon": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/gasfee.js"
+      "static/chunks/pages/comingsoon.js"
     ],
-    "/payment": [
+    "/next/dist/pages/_error": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/payment.js"
+      "static/chunks/pages/next/dist/pages/_error.js"
     ],
-    "/paypal": [
+    "/partners": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/paypal.js"
-    ],
-    "/visa": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/visa.js"
+      "static/chunks/pages/partners.js"
     ]
   },
   "ampFirstPages": []

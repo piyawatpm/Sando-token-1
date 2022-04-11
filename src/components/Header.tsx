@@ -10,9 +10,9 @@ function Header(): JSX.Element {
     >
       <div className="relative mx-auto container">
         <nav className="flex justify-between text-white ">
-          <div className="flex px-5 py-6 xl:px-12 flex w-full items-center ">
+          <div className="flex px-5 py-3 xl:px-12 flex w-full items-center ">
           <a className="flex  font-heading" href="/">
-              <img src="/images/sando-logo-text.png" alt="sando logo image" className="w-11/12"/>
+              <img src="/images/sando-logo-text.svg" alt="sando logo image" className="w-11/12"/>
             </a>
 
             {/*  Search component
@@ -104,7 +104,7 @@ function Header(): JSX.Element {
                           >
                             <div className="flex">
                               <img
-                                src="/images/wallets/metamask.png"
+                                src="/images/wallets/metamask.svg"
                                 className="w-12 "
                                 alt="metamask"
                               />

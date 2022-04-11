@@ -12,10 +12,9 @@ const Partner = (): JSX.Element => {
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
         <div className="lg:w-72 md:w-64  ">
           <div className="flex justify-center items-center lg:w-full md:w-90 overflow-auto rounded-t-lg bg-[#171717]">
-          <div className="flex flex-col justify-center items-center ">
-
+            <div className="flex flex-col justify-center items-center ">
               <img
-                src="./images/partner/sandora.png"
+                src="./images/partner/sandora.svg"
                 alt=""
                 className="w-44 mt-4"
               />
@@ -23,7 +22,8 @@ const Partner = (): JSX.Element => {
                 sandora.io
               </h1>
               <p className="text-white text-base text-center mb-10 mt-2">
-              NFTs Marketplace Platform <br /> on Solana Chain Network    </p>
+                NFTs Marketplace Platform <br /> on Solana Chain Network{" "}
+              </p>
             </div>
             <div></div>
           </div>
@@ -38,18 +38,19 @@ const Partner = (): JSX.Element => {
 
         <div className="lg:w-72 md:w-64">
           <div className="flex justify-center items-center  lg:w-full md:w-90 overflow-hidden rounded-t-lg bg-[#171717]">
-          <div className="flex flex-col justify-center items-center ">
-            <img
-              src="./images/partner/oceansky.png"
-              alt=""
-              className="w-44 mt-4 "
-            />
-             <h1 className="uppercase text-2xl text-white text-center font-bold">
+            <div className="flex flex-col justify-center items-center ">
+              <img
+                src="./images/partner/oceansky.svg"
+                alt=""
+                className="w-44 mt-4 "
+              />
+              <h1 className="uppercase text-2xl text-white text-center font-bold">
                 oceansky.io
               </h1>
               <p className="text-white text-base text-center mb-10 mt-2">
-              NFTs Merketplce Platform <br />
-on Ethereum Chain Network               </p>
+                NFTs Merketplce Platform <br />
+                on Ethereum Chain Network{" "}
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-3 rounded-b-lg bg-[#FB8700] px-5 py-5">
@@ -65,7 +66,7 @@ on Ethereum Chain Network               </p>
           <div className="flex flex-col justify-center items-center  lg:w-full md:w-72 overflow-hidden rounded-t-lg bg-[#171717]">
             <div className="flex flex-col justify-center items-center ">
               <img
-                src="./images/partner/metasando.png"
+                src="./images/partner/metasando.svg"
                 alt=""
                 className=" w-44 mt-4 "
               />
@@ -73,7 +74,8 @@ on Ethereum Chain Network               </p>
                 metasando.io
               </h1>
               <p className="text-white text-base text-center mb-4 mt-2">
-                Metaverse Game NFTs <br /> Marketplace Platform on <br /> Cross Chain Bridge
+                Metaverse Game NFTs <br /> Marketplace Platform on <br /> Cross
+                Chain Bridge
               </p>
             </div>
           </div>
@@ -86,7 +88,20 @@ on Ethereum Chain Network               </p>
           </div>
         </div>
       </div>
-      
+      <div className="px-20 py-20 mt-10">
+        <p className="text-white font-light text-2xl tracking-wide ml-2">
+          &emsp;&emsp;&nbsp;As a crypto-based platform, SANDORA will launch a
+          cryptocurrency that will facilitate user transactions on the platform.
+          SANDORA platform allows users to be able to get these tokens through
+          supported exchanges. These coins, known as the SANDO Token are the key
+          to the SANDORA platform, users must have these tokens
+          <br /> to be able to participate in various events on the platform.
+          This is the native token <br />
+          of the SANDORA which in the future will support the operation and
+          development <br />
+          of the platform.
+        </p>
+      </div>
     </div>
   );
 };
