@@ -15,19 +15,19 @@ const Buying = (): JSX.Element => {
                 />
                 <div>
                   <h1 className="text-4xl font-bold  cursor-poiter ml-2">
-                    Buying
+                    Buy
                   </h1>
                   <p className="flex w-80 text-sm mb-8 font-light ml-2">
-                    Power by Sando Token
+                    Powered by Sando Token
                   </p>
                 </div>
 
                 <div className="relative justify-center ml-10 mt-5  mb-5">
                   <div className="flex justify-center text-xs ml-20">
                     <div className="w-2 h-2 rounded-full bg-[#39db21] mt-1"></div>
-                    <p className="ml-1">Network</p>
+                    <p className="ml-1 mb-2 mr-4">Network</p>
                   </div>
-                  <div className="relative dropdown inline-block relative">
+                  <div className=" dropdown inline-block relative">
                     <button className="bg-gray-300 text-gray-700 font-semibold py-1 px-1 rounded-full inline-flex items-center">
                       <svg
                         className="fill-current h-5 w-5"

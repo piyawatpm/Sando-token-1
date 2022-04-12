@@ -26,7 +26,7 @@ const HeroSection = (): JSX.Element => {
                   </h1>
 
                   <p className=" ml-10 font-light text-xl">
-                    The world changes, We change, The future changes.
+                    The world changes. We change. The future changes.
                   </p>
                 </div>
 

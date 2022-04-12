@@ -86,13 +86,13 @@ const Distribution = (): JSX.Element => {
                   25,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                 Locked for 8 Months 
+                 Locked for 8 months 
                 </td>
               </tr>
 
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white bg-[#530E76] font-roboto">
                 <td className="hover:text-gray-400 p-3  text-left px-10 ">
-                  Seed Sale
+                  Seed Sales
                 </td>
                 <td className="border-y-zinc-900   hover:text-gray-400 p-3">
                   5%
@@ -102,13 +102,13 @@ const Distribution = (): JSX.Element => {
                   5,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                 Locked for 8 Months  <br />from date of purchase
+                 Locked for 8 months  <br />from date of purchase
                 </td>
               </tr>
 
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0   text-white font-roboto">
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
-                  Private Sale 
+                  Private Sales 
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
                   20%
@@ -123,7 +123,7 @@ const Distribution = (): JSX.Element => {
               </tr>
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white   bg-[#440B63] font-roboto">
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
-                  Pre-Sale (ICO)
+                  Pre-Sales (ICO)
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
                   5%
@@ -139,7 +139,7 @@ const Distribution = (): JSX.Element => {
 
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto">
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
-                  Public Sale (DEX)
+                  Public Sales (DEX)
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
                   5%
@@ -149,13 +149,13 @@ const Distribution = (): JSX.Element => {
                   5,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                Fully Unlocked
+                Fully unlocked
                 </td>
               </tr>
 
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white  bg-[#360950] font-roboto">
                 <td className="border-y-zinc-900 hover:text-gray-400 p-3  text-left px-10 ">
-                  Public Sale (CEX)
+                  Public Sales (CEX)
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
                   5%
@@ -165,7 +165,7 @@ const Distribution = (): JSX.Element => {
                   5,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                Fully Unlocked
+                Fully unlocked
                 </td>
               </tr>
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto">
@@ -180,12 +180,12 @@ const Distribution = (): JSX.Element => {
                   5,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                Fully Unlocked
+                Fully unlocked
                 </td>
               </tr>
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white  bg-[#28063C] font-roboto">
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
-                  Pool Liquidity
+                  Pool liquidity
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
                   5%
@@ -195,7 +195,7 @@ const Distribution = (): JSX.Element => {
                   5,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                Fully Unlocked
+                Fully unlocked
                 </td>
               </tr>
               <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto">
@@ -225,7 +225,7 @@ const Distribution = (): JSX.Element => {
                   10,000,000,000,000
                 </td>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3">
-                Fully Unlocked
+                Fully unlocked
                 </td>
               </tr>
             

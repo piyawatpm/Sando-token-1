@@ -88,18 +88,13 @@ const Partner = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="px-20 py-20 mt-10">
-        <p className="text-white font-light text-2xl tracking-wide ml-2">
-          &emsp;&emsp;&nbsp;As a crypto-based platform, SANDORA will launch a
-          cryptocurrency that will facilitate user transactions on the platform.
-          SANDORA platform allows users to be able to get these tokens through
-          supported exchanges. These coins, known as the SANDO Token are the key
-          to the SANDORA platform, users must have these tokens
-          <br /> to be able to participate in various events on the platform.
-          This is the native token <br />
-          of the SANDORA which in the future will support the operation and
-          development <br />
-          of the platform.
+      <div className="px-20 py-20 mt-10 bg-black/50 backdrop-blur rounded-2xl">
+        <p className="text-white font-light text-2xl tracking-wide ml-2 text-justify ">
+        As a crypto-based platform, SANDORA launches a cryptocurrency that facilitates user transactions . The SANDORA platform allows users to be able to get these tokens through supported exchanges. 
+        <br /> <br />
+        These coins, known as the SANDO Token are the key to the SANDORA platform. Users must have these tokens to be able to participate in various events on the platform. 
+        <br /> <br />
+        This is the foundation in which the operation and development of the SANDORA platform will be supported in the future.
         </p>
       </div>
     </div>
