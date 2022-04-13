@@ -25,7 +25,7 @@ const Footer = (): JSX.Element => {
                   />
 
                   <p className="text-white font-normal text-sm ml-3 mt-2">
-                    Currency used for our partners platforms : <br /> Oceansky,
+                    Currency used for our project platforms : <br /> Oceansky,
                     Sandora and Metasando.
                   </p>
                 </div>
@@ -65,7 +65,7 @@ const Footer = (): JSX.Element => {
                     />
                   </a>
                 </Link>
-                <Link href="https://youtube.com">
+                <Link href="https://www.youtube.com/channel/UCFMswzNKdyDwS29b73269uw">
                   <a target="_blank">
                     <img
                       className="h-10 w-10 opacity-75 hover:opacity-100"
@@ -83,7 +83,7 @@ const Footer = (): JSX.Element => {
                     />
                   </a>
                 </Link>
-                <Link href="https://linkedin.com/">
+                <Link href="https://www.linkedin.com/in/sando-token-a94282233/">
                   <a target="_blank">
                     <img
                       className="h-10 w-10 opacity-75 hover:opacity-100"
@@ -163,7 +163,7 @@ const Footer = (): JSX.Element => {
                     className="font-normal text-base hover:text-gray-200"
                     href="/partners"
                   >
-                    Partners
+                    Projects
                   </a>
                 </li>
                 <li>

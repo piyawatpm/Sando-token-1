@@ -7,7 +7,7 @@ const Partner = (): JSX.Element => {
       style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
     >
       <h1 className="uppercase text-3xl font-bold text-[#ff0090] mb-5 text-center py-5">
-        Partners
+        Projects
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
         <div className="lg:w-72 md:w-64  ">

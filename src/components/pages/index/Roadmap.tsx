@@ -111,7 +111,7 @@ const Roadmap = (): JSX.Element => {
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
-                            Playform status feature
+                            Platform status feature
                           </div>
                         </li>
                         <li className=" text-[#ffb700] text-3xl ml-5">
