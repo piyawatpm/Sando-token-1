@@ -3,15 +3,18 @@ import { ethers } from "ethers";
 
 const WalletCard = () => {
   
-  /*
+ 
   const [errorMessage, setErrorMessage] = useState(null);
-  const [defaultAccount, setDefaultAccount] = useState(null);
-  const [userBalance, setUserBalance] = useState(null);
-  const [connButtonText, setConnectButtonText] = useState("Connect Wallet");
+  const [walletAddress, setWalletAddress] = useState(null);
+  const [walletBalance, setWalletBalance] = useState(null);
+  const [isConnected, setIsConnected] = useState(false);
 
   const connectWalletHandler = () => {
+    console.log("requesting account...");
+
     if (window.ethereum) {
       //metamask installed
+      console.log("metamask detected");
       window.ethereum
         .request({ method: "eth_requestAccounts" })
         .then((result) => {
@@ -24,14 +27,14 @@ const WalletCard = () => {
 
   const accountChangedHandler = (newAccount) => {
       //set default account to the account that passed in
-      setDefaultAccount(newAccount);
-      getUserBalance(newAccount.toString());
+      setWalletAddress(newAccount);
+      getWalletBalance(newAccount.toString());
   };
 
-  const getUserBalance = (address) => {
+  const getWalletBalance = (address) => {
     window.ethereum.request({method: 'eth_getBalance', params: [address, 'latest']})
     .then(balance => {
-      setUserBalance(ethers.utils.formatEther(balance));
+      setWalletBalance(ethers.utils.formatEther(balance));
     })
   };
 
@@ -39,14 +42,14 @@ const WalletCard = () => {
     window.location.reload();
   }
 
-*/
+
 
   // window.ethereum.on('accountsChanged', accountChangedHandler);
 
   // window.ethereum.on('chainChange', chainChangedHandler);
 
 
-
+/*
   const [walletAddress, setwalletAddress] = useState(" ");
   const [walletBalance, setwalletBalance] = useState("");
   const [isConnected, setIsConnected] = useState(false);
@@ -81,7 +84,7 @@ const WalletCard = () => {
       setWalletBalance(ethers.utils.formatEther(balance));
     })
   };
-
+*/
   return (
     <>
       {/* 
