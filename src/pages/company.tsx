@@ -3,10 +3,10 @@ function Company(): JSX.Element {
   return (
     <>
       <div
-        className="relative overflow-hidden mx-auto w-full bg-cover bg-center container  mt-20"
+        className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-20"
         style={{ backgroundImage: `url(${"./images/web/company-bg.png"})` }}
       >
-        <div className="flex flex-col   justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center px-10">
               <div className="md:shrink-0 ml-10 mb-20">
@@ -21,7 +21,9 @@ function Company(): JSX.Element {
                   SANDORA PTY LTD
                 </h1>
                 <h3 className="text-white text-center">ACN : 658 145 763</h3>
-                <div className="flex justify-center items-center">
+                <h3 className="text-white text-center mb-3">Contact us: info@sandotoken.io</h3>
+
+                <div className="flex justify-center items-center mb-20">
                   <img
                     src="./images/sandora-logo.svg"
                     alt="sandora-logo"
@@ -71,10 +73,10 @@ function Company(): JSX.Element {
 
                 <div className="flex justify-center tracking-wide text-xl text-white font-semibold ml-10 mt-20 mb-20">
                   <a
-                    href="/partners"
+                    href="/projects"
                     className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-10 rounded-xl"
                   >
-                    Learn more about our partners
+                    Learn more about our projects
                   </a>
                 </div>
               </div>
