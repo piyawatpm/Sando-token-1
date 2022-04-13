@@ -6,11 +6,10 @@ const Adding = (): JSX.Element => {
     style={{ backgroundImage: `url(${'./images/sando-details/bg-details.png'})` }}
     >
       <div className="flex flex-col justify-center items-center">
-      <img src="/images/sando-logo.svg" alt="sando logo image" className="w-48 mt-20 mb-10"/>
+      <img src="/images/sando-logo.svg" alt="sando logo image" className="w-52 mt-20 mb-10"/>
 
-            <div className="py-10 px-20 bg-[#171717] rounded-2xl shadow-xl z-20">
-              <div className="text-white text-left">
-                <div className="flex">
+            <div className="text-white py-10 px-20 bg-[#171717] rounded-2xl shadow-xl z-20">
+              <div className="flex">
                   <img
                     src="/images/sando-logo.svg"
                     alt="sando logo"
@@ -19,33 +18,35 @@ const Adding = (): JSX.Element => {
                   <h1 className="uppercase text-4xl font-black cursor-pointer mt-2 ml-2 mb-2">
                     Sando Token Address
                   </h1>
-                </div>
-                <p className="flex text-base font-normal text-[#c4c4c4]">
-                  Name
-                  <h1 className="uppercase text-white text-base ml-5 font-extrabold">
-                    : sando
-                  </h1>
-                </p>
-                <p className="flex text-base font-normal text-[#c4c4c4] mt-1">
-                  Symbol
-                  <h1 className="uppercase text-white ml-2 font-extrabold	">
-                    : sando
-                  </h1>
-                </p>
-                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1">
-                  Decimal
-                  <h1 className="uppercase text-white ml-1 font-medium">
-                    : 18
-                  </h1>
-                </p>
-                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1">
-                  Address :
-                  <a href="" className="ml-1 font-medium text-[#ff0090]">
-                    0xa8aB6A7fc3F3be783A212baE3aa8a866c99028e6
-                  </a>
-                </p>
+                 
               </div>
-            </div>
+              <div className="flex">
+                  <h3 className="text-[#c4c4c4] text-lg font-normal">
+                  Name :
+                  </h3>
+                  <p className="ml-2 text-white text-lg font-extrabold">
+                    SANDO
+                  </p>
+                </div>
+                <div className="flex">
+                  <h3 className="text-[#c4c4c4] text-xl font-normal">Symbol :</h3>
+                  <p className="ml-2 text-white text-lg font-extrabold">
+                  SANDO
+                  </p>
+                </div>
+                <div className="flex">
+                  <h3 className="text-[#c4c4c4] text-lg font-normal">
+                  Decimal :
+                  </h3>
+                  <p className="ml-2 text-white text-lg font-medium">18</p>
+                </div>
+                <div className="flex">
+                  <h3 className="text-[#c4c4c4] text-lg font-normal">
+                  Address :
+                  </h3>
+                  <p className="ml-2 text-white text-lg font-medium"></p>
+                </div>
+                </div>
        
 
           <div className="min-h-screen flex justify-center items-center mb-20">
