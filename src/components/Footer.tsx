@@ -92,7 +92,7 @@ const Footer = (): JSX.Element => {
                     />
                   </a>
                 </Link>
-                <Link href="https://discord.com/channels/955559445843284009/955559446585684020">
+                <Link href="https://discord.gg/gjPUjuQY">
                   <a target="_blank">
                     <img
                       className="h-10 w-10 opacity-75 hover:opacity-100"

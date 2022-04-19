@@ -200,7 +200,7 @@ const Tokenomics = (): JSX.Element => {
                   </h1>
                 </div>
 
-                <h3 className="text-white text-xl font-bold px-10">Token Data</h3>
+                <h3 className="text-[#ffb700] text-xl font-bold px-10">Token Data</h3>
                 <div className="flex px-10">
                   <h3 className="text-white text-lg font-medium">
                     Token Ticker :

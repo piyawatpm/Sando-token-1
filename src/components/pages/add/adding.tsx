@@ -8,43 +8,49 @@ const Adding = (): JSX.Element => {
       <div className="flex flex-col justify-center items-center">
       <img src="/images/sando-logo.svg" alt="sando logo image" className="w-52 mt-20 mb-10"/>
 
-            <div className="text-white py-10 px-20 bg-[#171717] rounded-2xl shadow-xl z-20">
+            <div className="text-white py-10 px-10 bg-[#171717] rounded-2xl shadow-xl z-20">
               <div className="flex">
+                {/* 
                   <img
                     src="/images/sando-logo.svg"
                     alt="sando logo"
                     className="w-12 h-12"
                   />
-                  <h1 className="uppercase text-4xl font-black cursor-pointer mt-2 ml-2 mb-2">
+                  */}
+                  <h1 className="uppercase text-4xl font-black cursor-pointer mt-2 ml-2 mb-2 px-10">
                     Sando Token Address
                   </h1>
                  
               </div>
+              <div className="w-full my-5 flex justify-center items-center">
+              <hr className="text-white w-full" />
+            
+            </div>
               <div className="flex">
                   <h3 className="text-[#c4c4c4] text-lg font-normal">
-                  Name :
+                  Name    
                   </h3>
-                  <p className="ml-2 text-white text-lg font-extrabold">
-                    SANDO
+                  <p className="ml-7 text-white text-lg font-extrabold">
+                  : SANDO
                   </p>
                 </div>
                 <div className="flex">
-                  <h3 className="text-[#c4c4c4] text-xl font-normal">Symbol :</h3>
+                  <h3 className="text-[#c4c4c4] text-xl font-normal">Symbol</h3>
                   <p className="ml-2 text-white text-lg font-extrabold">
-                  SANDO
+                  : SANDO
                   </p>
                 </div>
                 <div className="flex">
                   <h3 className="text-[#c4c4c4] text-lg font-normal">
-                  Decimal :
+                  Decimal
                   </h3>
-                  <p className="ml-2 text-white text-lg font-medium">18</p>
+                  <p className="ml-2 text-white text-lg font-medium"> : 18</p>
                 </div>
                 <div className="flex">
                   <h3 className="text-[#c4c4c4] text-lg font-normal">
-                  Address :
+                  Address 
                   </h3>
-                  <p className="ml-2 text-white text-lg font-medium"></p>
+                  <p className="ml-2 text-white text-lg font-medium">:</p>
                 </div>
                 </div>
        

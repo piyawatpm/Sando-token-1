@@ -16,7 +16,7 @@ const Gasfee = (): JSX.Element => {
                     Before you purchase SANDO, please understand gas fees
                   </p>
                   <p className="font-light text-xl text-white mt-5 ml-20 text-justify break-words">
-                    If you plan to swap or transfer your SANDO, be sure to
+                    If you plan to swap or transfer your <strong>SANDO</strong>, be sure to
                     purchase enough Ethereum tokens to cover gas fees. This is
                     in addition to the cost of purchasing SANDO tokens.
                     <br />
