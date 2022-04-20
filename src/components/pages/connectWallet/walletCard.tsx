@@ -88,10 +88,10 @@ const WalletCard = () => {
   return (
     <>
       {isConnected ? (
-        <div className="flex">
-          <h3 className=" text-[#FF0090] bg-white rounded-l-full font-bold px-1 py-1 z-0">{walletBalance} ETH</h3>
+        <div className="flex mr-20 px-10">
+          <h3 className="absolute text-[#FF0090] bg-white rounded-l-full font-bold px-2 py-1 z-0 right-20 bottom-7 mr-20 ">{walletBalance} ETH</h3>
           
-          <h3 className="truncate  text-white bg-[#FF0090] rounded-full font-bold px-2 py-1 w-36 z-10">{walletAddress}</h3>
+          <h3 className="truncate absolute text-white bg-[#FF0090] rounded-full font-bold px-2 py-1 w-40 z-10 bottom-7 mr-1">{walletAddress}</h3>
          
         </div>
       ) : (

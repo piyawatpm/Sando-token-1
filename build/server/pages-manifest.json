@@ -3,5 +3,6 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/metamask": "pages/metamask.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/buy": "pages/buy.js"
 }
