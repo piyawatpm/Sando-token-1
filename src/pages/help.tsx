@@ -5,7 +5,7 @@ function Help(): JSX.Element {
       <div className="relative overflow-hidden mx-auto w-full  container px-20">
         <div className="flex flex-col justify-center items-center">
           <h1 className="uppercase text-3xl font-black text-[#ff0090] mb-5 text-center py-5">
-            Help canter
+            Help cantre
           </h1>
           <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
             <div className="lg:w-72 md:w-64  ">
@@ -28,7 +28,7 @@ function Help(): JSX.Element {
                     Buying
                   </h1>
                   <p className="text-white text-base text-center mt-2">
-                    How to buy SANDO TOKEN, and <br /> calculate the exchange
+                    How to buy SANDO TOKEN and <br /> calculate the exchange
                     rate <br /> Ethereum or USDC to Sando Tokens{" "}
                   </p>
                 </div>

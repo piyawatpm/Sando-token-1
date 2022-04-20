@@ -253,7 +253,7 @@ const Footer = (): JSX.Element => {
                     className="font-normal hover:text-gray-200 text-base"
                     href="/help"
                   >
-                    Help Center
+                    Help Centre
                   </a>
                 </li>
               </ul>
