@@ -40,7 +40,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://facebook.com/sandotoken">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/FB.png"
                       alt="facebook"
                     />
@@ -50,7 +50,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://twitter.com/@Sando_Token">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Twitter.png"
                       alt="Twitter"
                     />
@@ -59,7 +59,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://instagram.com/Sandotoken">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Instagram.png"
                       alt="Instagram"
                     />
@@ -68,7 +68,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://www.youtube.com/channel/UCFMswzNKdyDwS29b73269uw">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Youtube.png"
                       alt="Youtube"
                     />
@@ -77,7 +77,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://tiktok.com/@sandotoken">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/TikTok.png"
                       alt="TikTok"
                     />
@@ -86,7 +86,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://www.linkedin.com/in/sando-token-a94282233/">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Linkedin.png"
                       alt="Linkedin"
                     />
@@ -95,7 +95,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://discord.gg/gjPUjuQY">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Discord.png"
                       alt="Discord"
                     />
@@ -104,7 +104,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://t.me/+hk4UEOF_HGdlNDI1">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Telegram.png"
                       alt="Telegram"
                     />
