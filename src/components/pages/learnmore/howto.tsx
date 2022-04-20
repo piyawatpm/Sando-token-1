@@ -9,8 +9,8 @@ const howto = (): JSX.Element => {
             <div className="md:flex justify-center items-center ml-10 px-10">
               <div className="md:shrink-0 w-2/3">
                 <div className="text-[#FF0090] py-5">
-                  <h1 className=" text-3xl font-black">
-                    How to Stake your SANDO?{" "}
+                  <h1 className="uppercase text-3xl font-black">
+                    How to Stake your SANDO?
                   </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
@@ -20,7 +20,7 @@ const howto = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5">
-                  <h1 className=" text-2xl font-black">SANDO Staking </h1>
+                  <h1 className="uppercase text-3xl font-black">SANDO Staking </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     SANDO staking on Ethereum is the platinum standard for
@@ -31,7 +31,7 @@ const howto = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5">
-                  <h1 className=" text-2xl font-black">Stake SANDO Today ! </h1>
+                  <h1 className="uppercase text-3xl font-black">Stake SANDO Today ! </h1>
 
                   <p className=" font-light text-xl text-white text-justify">
                     Staking with a SANDO is as easy as a token swap. No need to
@@ -48,7 +48,7 @@ const howto = (): JSX.Element => {
                   <img
                     src="/images/learnmore/how-to-staking.svg"
                     alt=" how to staking image"
-                    className="w-2/3 mb-20 ml-10"
+                    className="w-2/3 mb-20 ml-20"
                   />
                 </div>
               </div>

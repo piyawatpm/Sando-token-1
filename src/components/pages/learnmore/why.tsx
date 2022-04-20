@@ -4,13 +4,13 @@ const why = (): JSX.Element => {
   return (
     <>
       <div className="relative overflow-hidden mx-auto w-full container mb-10">
-        <div className="flex flex-col   justify-center items-center px-10">
+        <div className="flex flex-col   justify-center items-center ml-10">
           <div className="relative  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center ml-20 px-10">
               <div className="md:shrink-0 w-2/3">
                 <div className="text-[#FF0090] py-5">
                   <h1 className="uppercase text-3xl font-black mb-10 mt-10 ">
-                    Why Stake your SANDO?{" "}
+                    Why Stake your SANDO?
                   </h1>
 
                   <p className=" font-light text-xl text-white text-justify">
@@ -20,7 +20,7 @@ const why = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50]  py-5">
-                  <h1 className=" text-2xl font-black">Earn rewards </h1>
+                  <h1 className="uppercase text-3xl font-black">Earn rewards </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     Rewards are given for actions that help the network reach
@@ -32,7 +32,7 @@ const why = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50]  py-5">
-                  <h1 className=" text-2xl font-black">Better security </h1>
+                  <h1 className="uppercase text-3xl font-black">Better security </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     The network gets stronger against attacks as more SANDO is
@@ -44,7 +44,7 @@ const why = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50]  py-5">
-                  <h1 className=" text-2xl font-black">More sustainable </h1>
+                  <h1 className="uppercase text-3xl font-black">More sustainable </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     Stakers don't need energy-intensive computers to participate
@@ -59,7 +59,7 @@ const why = (): JSX.Element => {
                   <img
                     src="/images/learnmore/why-staking.svg"
                     alt=" why staking image"
-                    className="w-2/3 mb-20 ml-10"
+                    className="w-2/3 mb-20 ml-20"
                   />
                 </div>
               </div>

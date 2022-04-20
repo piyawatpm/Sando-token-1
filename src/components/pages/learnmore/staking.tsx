@@ -4,22 +4,22 @@ const staking = (): JSX.Element => {
   return (
     <>
       <div className="relative overflow-hidden mx-auto w-full container mb-10">
-        <div className="flex flex-col   justify-center items-center px-10">
+        <div className="flex flex-col   justify-center items-center ml-10">
           <div className="relative  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
-            <div className="md:flex justify-center items-center ml-20 px-10">
-              <div className="md:shrink-0 ml-20 w-2/3 mr-10">
+            <div className="md:flex justify-center items-center ml-20">
+              <div className="md:shrink-0 ml-20 w-2/3">
                 <div className="text-[#FF0090] py-10 ml-10">
                   <div className="ml-10 mt-5">
                     <h1 className="font-extrabold text-4xl text-[#FF0090] mb-5">
                       HOW TO STAKE YOUR SANDO
                     </h1>
-                    <p className="font-extrabold text-xl text-[#FF0090]">
-                      Earn rewards while securing SANDO{" "}
+                    <p className="uppercase font-extrabold text-3xl text-[#0ECF50]">
+                      Earn rewards while securing SANDO
                     </p>
-                    <p className="font-light text-xl text-white mt-2 text-justify break-words">
-                      Staking is a public good for the SANDO ecosystem. Any{" "}
-                      <br /> user with any amount of SANDO can help secure the{" "}
-                      <br /> network and earn rewards in the process.
+                    <p className="font-light text-xl text-white mt-2 text-justify">
+                      Staking is a public good for the SANDO ecosystem. Any
+                      user with any amount of SANDO can help secure the
+                     network and earn rewards in the process.
                     </p>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ const staking = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5 ml-20">
-                  <h1 className="uppercase text-xl font-black">
+                  <h1 className="uppercase text-3xl font-black">
                     What is Liquidity?
                   </h1>
 
@@ -84,7 +84,7 @@ const staking = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5 ml-20">
-                  <h1 className="uppercase text-xl font-black">
+                  <h1 className="uppercase text-3xl font-black">
                     What is Market Price?{" "}
                   </h1>
 
@@ -99,11 +99,11 @@ const staking = (): JSX.Element => {
               </div>
 
               <div className="md:shrink-0 mb-20">
-                <div className="flex tracking-wide w-full md:w-full mb-20">
+                <div className="flex float-right w-full md:w-full mb-20 ml-10">
                   <img
                     src="/images/learnmore/staking.svg"
                     alt=" staking image"
-                    className=" w-2/3 mb-20"
+                    className=" w-3/5 mb-20"
                   />
                 </div>
               </div>
