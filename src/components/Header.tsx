@@ -1,4 +1,5 @@
 import React from 'react'
+import WalletCard from "@/components/pages/connectWallet/walletCard";
 
 
 function Header(): JSX.Element {
@@ -64,6 +65,10 @@ function Header(): JSX.Element {
                 <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
                 <a href="/login">Login</a> | <a href="/register">Register</a>
               </div>
+
+              <WalletCard/>
+{/* 
+           
               <button
                     // href="/"
                     className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-5 rounded-full"
@@ -72,15 +77,14 @@ function Header(): JSX.Element {
                   >
                     Connect Wallet
                </button>
-
+             
                {showModal ? (
                 <>
                   <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                     <div className="relative w-auto my-6 mx-auto max-w-3xl">
-                      {/*content*/}
+                   
 
                       <div className="border-0 rounded-[30px] shadow-lg relative flex flex-col w-full bg-[#171717] py-2 px-10 outline-none focus:outline-none">
-                        {/*header*/}
 
                         <button
                           className="p-1 ml-auto bg-red border-0 text-red float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -96,7 +100,6 @@ function Header(): JSX.Element {
                           </h3>
                         </div>
 
-                        {/*body*/}
 
                         <div className="flex items-center justify-center mt-5 px-10">
                           <a
@@ -134,6 +137,9 @@ function Header(): JSX.Element {
                   <div className="backdrop-blur-lg fixed inset-0 z-40"></div>
                 </>
               ) : null}
+
+*/}
+
 
             </div>
           </div>
