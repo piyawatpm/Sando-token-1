@@ -1,18 +1,19 @@
-import React from 'react'
+import React from "react";
 
 function Header(): JSX.Element {
-
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <header
-      className="navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]"
-    >
+    <header className="navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]">
       <div className="relative mx-auto container">
-        <nav className="flex justify-between text-white ">
+        <nav className="flex justify-between text-white">
           <div className="flex px-5 py-3 xl:px-12 flex w-full items-center ">
-          <a className="flex  font-heading" href="/">
-              <img src="/images/sando-logo-text.svg" alt="sando logo image" className="w-11/12"/>
+            <a className="flex  font-heading" href="/">
+              <img
+                src="/images/sando-logo-text.svg"
+                alt="sando logo image"
+                className="w-11/12"
+              />
             </a>
 
             {/*  Search component
@@ -26,17 +27,17 @@ function Header(): JSX.Element {
             </div>
 
              */}
-            <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12 ml-2">
-            <li>
+            <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12">
+              <li>
                 <a className="hover:text-gray-200" href="/">
                   Home
                 </a>
-              </li> 
+              </li>
               <li>
                 <a className="hover:text-gray-200" href="/sale">
                   Tokensale
                 </a>
-              </li> 
+              </li>
 
               <li>
                 <a className="hover:text-gray-200" href="/staking">
@@ -45,11 +46,42 @@ function Header(): JSX.Element {
               </li>
 
               <li>
-                <a className="hover:text-gray-200 mr-20" href="/buy">
+                <a className="hover:text-gray-200 mr-8" href="/buy">
                   Buy
                 </a>
-              </li>          
+              </li>
             </ul>
+
+            <div className=" dropdown inline-block relative z-10">
+              <button className=" text-white font-semibold py-1 px-1  inline-flex items-center">
+                <span className="mr-1">English</span>
+                <svg
+                  className="fill-current h-5 w-5 mr-10"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </button>
+              <ul className="dropdown-menu absolute hidden text-white pt-1 font-bold bg-zinc-800 rounded-lg mt-1">
+                <li className="">
+                  <a
+                    className="flex rounded hover:text-gray-300 py-2 px-4  block whitespace-no-wrap ml-2"
+                    href="#"
+                  >
+                    <span className="mr-2">Thai</span>
+                  </a>
+                </li>
+                <li className="">
+                  <a
+                    className="flex rounded  hover:text-gray-300 py-2 px-4  block whitespace-no-wrap ml-2"
+                    href="#"
+                  >
+                    <span className="mr-2">Turkish</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
             <div className="flex flex-col md:flex-row mt-5 md:mt-0 items-end md:items-center md:justify-end">
               {/*
@@ -60,19 +92,20 @@ function Header(): JSX.Element {
                 Connect Wallet
               </button>
                */}
-                <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
+
+              <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
                 <a href="/login">Login</a> | <a href="/register">Register</a>
               </div>
               <button
-                    // href="/"
-                    className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-5 rounded-full"
-                    type="submit"
-                    onClick={() => setShowModal(true)}
-                  >
-                    Connect Wallet
-               </button>
+                // href="/"
+                className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-5 rounded-full"
+                type="submit"
+                onClick={() => setShowModal(true)}
+              >
+                Connect Wallet
+              </button>
 
-               {showModal ? (
+              {showModal ? (
                 <>
                   <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                     <div className="relative w-auto my-6 mx-auto max-w-3xl">
@@ -133,7 +166,6 @@ function Header(): JSX.Element {
                   <div className="backdrop-blur-lg fixed inset-0 z-40"></div>
                 </>
               ) : null}
-
             </div>
           </div>
           <a className="xl:hidden flex mr-6 items-center" href="/">
@@ -175,7 +207,7 @@ function Header(): JSX.Element {
         </nav>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
