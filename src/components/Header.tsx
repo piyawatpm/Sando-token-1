@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 import WalletCard from "@/components/pages/connectWallet/walletCard";
 
-
 function Header(): JSX.Element {
-
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <header
-      className="navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]"
-    >
+    <header className="navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]">
       <div className="relative mx-auto container">
         <nav className="flex justify-between text-white ">
           <div className="flex px-5 py-3 xl:px-12 flex w-full items-center ">
-          <a className="flex  font-heading" href="/">
-              <img src="/images/sando-logo-text.svg" alt="sando logo image" className="w-11/12"/>
+            <a className="flex  font-heading" href="/">
+              <img
+                src="/images/sando-logo-text.svg"
+                alt="sando logo image"
+                className="w-11/12"
+              />
             </a>
 
             {/*  Search component
@@ -29,16 +29,16 @@ function Header(): JSX.Element {
 
              */}
             <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12 ml-2">
-            <li>
+              <li>
                 <a className="hover:text-gray-200" href="/">
                   Home
                 </a>
-              </li> 
+              </li>
               <li>
                 <a className="hover:text-gray-200" href="/sale">
                   Tokensale
                 </a>
-              </li> 
+              </li>
 
               <li>
                 <a className="hover:text-gray-200" href="/staking">
@@ -50,7 +50,7 @@ function Header(): JSX.Element {
                 <a className="hover:text-gray-200 mr-20" href="/buy">
                   Buy
                 </a>
-              </li>          
+              </li>
             </ul>
 
             <div className="flex flex-col md:flex-row mt-5 md:mt-0 items-end md:items-center md:justify-end">
@@ -62,12 +62,12 @@ function Header(): JSX.Element {
                 Connect Wallet
               </button>
                */}
-                <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
+              <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
                 <a href="/login">Login</a> | <a href="/register">Register</a>
               </div>
 
-              <WalletCard/>
-{/* 
+              <WalletCard />
+              {/* 
            
               <button
                     // href="/"
@@ -140,7 +140,7 @@ function Header(): JSX.Element {
 
 */}
 
-
+            
             </div>
           </div>
           <a className="xl:hidden flex mr-6 items-center" href="/">
@@ -182,7 +182,7 @@ function Header(): JSX.Element {
         </nav>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
