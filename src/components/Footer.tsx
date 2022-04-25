@@ -182,6 +182,14 @@ const Footer = (): JSX.Element => {
                     Gas Fees Token
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/wallet"
+                  >
+                   Wallet
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="text-white ml-20">

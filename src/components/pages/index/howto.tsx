@@ -17,10 +17,10 @@ const Howto = (): JSX.Element => {
               <div className="md:shrink-0 px-10 py-5">
                 <div className="flex py-5 tracking-wide text-xl text-white font-semibold px-10">
                   <h1 className="uppercase text-[#FF0090] text-4xl font-black mt-10  ">
-                    HOW TO STAKE YOUR SANDO{" "}
+                    HOW TO STAKE YOUR SANDO ?
                   </h1>
                 </div>
-                <h1 className="text-xl font-bold text-[#FF0090] px-10 text-justify w-[600px]">
+                <h1 className="text-xl font-bold text-[#0ECF50] px-10 text-justify w-[600px]">
                   Earn rewards while securing SANDO
                 </h1>
                 <h1 className="text-xl font-light text-white mb-10 py-5 px-10 text-justify w-[600px]">
