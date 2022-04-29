@@ -3,12 +3,14 @@ import MainLayout from 'src/layout/MainLayout'
 
 import Banner from '@/components/pages/staking/Banner'
 import Overall from '@/components/pages/staking/Overall'
+import Stakings from "@/components/pages/staking/Staking"
 import Activity from '@/components/pages/staking/Activity'
 function Staking(): JSX.Element {
   return (
-    <div className="max-w-screen-xl	mx-auto">
+    <div>
       <Banner />
       <Overall />
+      <Stakings />
       <Activity/>
     </div>
   )

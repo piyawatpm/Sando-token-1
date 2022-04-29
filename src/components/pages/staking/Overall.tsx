@@ -3,7 +3,7 @@ import React from 'react'
 const Overall = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-10">
-      <h1 className="text-3xl font-bold text-white ml-10"> Overall</h1>
+      <h1 className="uppercase text-3xl font-bold text-white ml-10"> Overall</h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-10 mr-10 mt-5 text-black">
         <div className="lg:w-full md:w-90 h-64 ">
           <div

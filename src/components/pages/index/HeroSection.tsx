@@ -1,19 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const HeroSection = (): JSX.Element => {
-  const [showModal, setShowModal] = React.useState(false)
+
+  const [showModal, setShowModal] = React.useState(false);
 
   return (
-
-  
-    <div className="relative overflow-hidden mx-auto w-full container mb-10"
-    
-    >
+    <div className="relative overflow-hidden mx-auto w-full container mb-10">
       <div className="flex flex-col   justify-center items-center">
         <div className="relative  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
           <div
             className="relative overflow-hidden w-full flex py-5 mb-10  bg-cover bg-center md:w-1/2 lg:w-full"
-            style={{ backgroundImage: `url(${'./images/web/bg.png'})` }}
+            style={{ backgroundImage: `url(${"./images/web/bg.png"})` }}
           >
             <div className="md:flex justify-center items-center px-10">
               <div className="md:shrink-0 px-10 ml-20">
@@ -59,10 +56,9 @@ const HeroSection = (): JSX.Element => {
                     <div className="relative w-auto my-6 mx-auto max-w-3xl">
                       {/*content*/}
 
-                     
                       <div className="border-0 rounded-[30px] shadow-lg relative flex flex-col w-full bg-[#171717] py-2 px-10 outline-none focus:outline-none">
                         {/*header*/}
-                    
+
                         <button
                           className="p-1 ml-auto bg-red border-0 text-red float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                           onClick={() => setShowModal(false)}
@@ -76,10 +72,9 @@ const HeroSection = (): JSX.Element => {
                             Connect your wallet
                           </h3>
                         </div>
-                       
+
                         {/*body*/}
 
-                       
                         <div className="flex items-center justify-center mt-5 px-10">
                           <a
                             href="/metamask"
@@ -87,7 +82,7 @@ const HeroSection = (): JSX.Element => {
                           >
                             <div className="flex">
                               <img
-                                src="/images/wallets/metamask.png"
+                                src="/images/wallets/metamask.svg"
                                 className="w-12 "
                                 alt="metamask"
                               />
@@ -113,12 +108,12 @@ const HeroSection = (): JSX.Element => {
                       </div>
                     </div>
                   </div>
-                  <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                  <div className="backdrop-blur-lg fixed inset-0 z-40 "></div>
                 </>
               ) : null}
 
               <div className="md:shrink-0 px-5 ml-10 mt-20">
-                  {/*
+                {/*
               <div className="flex tracking-wide w-full  md:w-full">
                   <img
                     src="/images/sandora-banner.gif"
@@ -131,7 +126,6 @@ const HeroSection = (): JSX.Element => {
               */}
 
                 <div className="flex tracking-wide w-full animate-bounce mt-20 md:w-full">
-                
                   <img
                     src="/images/web/token1.png"
                     alt=" token image"
@@ -157,25 +151,13 @@ const HeroSection = (): JSX.Element => {
                     className="w-1/3 md:w-1/2"
                   />
                 </div>
-            
-
-              
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  );
+};
 
-</div>
-
-
-
-
-   
-  
-
-
-  )
-}
-
-export default HeroSection
+export default HeroSection;

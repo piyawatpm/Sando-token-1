@@ -2,7 +2,7 @@ import react from 'react'
 
 const Token = (): JSX.Element => {
   return (
-    <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10">
+    <div className="relative overflow-hidden mx-auto w-full container">
       {/*  
     <div className="flex flex-col justify-center items-center">
     <img
@@ -43,14 +43,14 @@ const Token = (): JSX.Element => {
                  
                 </h1>
                 <a
-                  href="/sando-details"
+                  href="/addsando"
                   className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-md font-bold py-2 px-8 rounded-full ml-10"
                 >
-                  SANDO Detail
+                  SANDO Details
                 </a>
                 <div className="mt-8 mb-20">
                 <a
-                  href="/add-sando"
+                  href="/addsando"
                   className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-md font-bold py-2 px-10 rounded-full ml-10"
                 >
                   Add SANDO
