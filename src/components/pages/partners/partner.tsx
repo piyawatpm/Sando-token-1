@@ -7,11 +7,8 @@ const Partner = (): JSX.Element => {
       style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
     >
       <h1 className="uppercase text-3xl font-bold text-[#ff0090] mb-5 text-center py-5">
-<<<<<<< HEAD
-        Partners
-=======
+
         Projects
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
         <div className="lg:w-72 md:w-64  ">
@@ -92,20 +89,7 @@ const Partner = (): JSX.Element => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      <div className="px-20 py-20 mt-10">
-        <p className="text-white font-light text-2xl tracking-wide ml-2">
-          &emsp;&emsp;&nbsp;As a crypto-based platform, SANDORA will launch a
-          cryptocurrency that will facilitate user transactions on the platform.
-          SANDORA platform allows users to be able to get these tokens through
-          supported exchanges. These coins, known as the SANDO Token are the key
-          to the SANDORA platform, users must have these tokens
-          <br /> to be able to participate in various events on the platform.
-          This is the native token <br />
-          of the SANDORA which in the future will support the operation and
-          development <br />
-          of the platform.
-=======
+
       <div className="px-20 py-20 mt-10 bg-black/50 backdrop-blur rounded-2xl">
         <p className="text-white font-light text-2xl tracking-wide ml-2 text-justify ">
         As a crypto-based platform, SANDORA launches a cryptocurrency that facilitates user transactions . The SANDORA platform allows users to be able to get these tokens through supported exchanges. 
@@ -113,7 +97,6 @@ const Partner = (): JSX.Element => {
         These coins, known as the SANDO Token are the key to the SANDORA platform. Users must have these tokens to be able to participate in various events on the platform. 
         <br /> <br />
         This is the foundation in which the operation and development of the SANDORA platform will be supported in the future.
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
         </p>
       </div>
     </div>

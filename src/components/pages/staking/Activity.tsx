@@ -3,11 +3,8 @@ import react from 'react'
 const Activity = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-20">
-<<<<<<< HEAD
-      <h1 className="text-3xl font-bold text-white"> Your Activity</h1>
-=======
+
       <h1 className="text-3xl font-bold text-[#FF0090]"> Your Activity</h1>
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
 
       {/* 
       <div className="flex flex-col justify-center items-center">

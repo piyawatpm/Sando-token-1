@@ -3,12 +3,8 @@ import React from "react";
 const Staking = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-20">
-<<<<<<< HEAD
-  
-      <h1 className="uppercase text-3xl font-bold text-white mb-5">
-=======
+
       <h1 className="uppercase text-3xl font-bold text-[#FF0090] mb-5">
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
         staking
       </h1>
 
@@ -34,40 +30,7 @@ const Staking = (): JSX.Element => {
               Unstake
             </a>
           </div>
-<<<<<<< HEAD
-        
-         
-          <div className="text-center mt-5 mb-5">
-          <h2 className="text-base text-white font-semibold">
-            1 Sando token = 0.0009usd
-          </h2>
-          <img
-            src="/images/web/sando-token-logo.png"
-            alt="sando logo"
-            className="flex absolute  py-1 px-1 w-10 "
-          />
-   
-          <input
-            className="text-black  rounded-3xl py-3 pl-10 pr-5  placeholder:text-slate-400 shadow-sm focus:outline-none text-xs w-96"
-            type="text"
-            name="sando"
-          />
-           
-         </div>
-        
-          <div className="text-center mt-10">
-            <a
-              href="/comingsoon"
-              className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-xl font-bold py-2 px-10  rounded-full"
-            >
-              Staking Now
-            </a>
-          </div>
-       
-        </div>
-      </div>
 
-=======
 
           <div className="relative space-y-1 mt-5 mb-5 text-white px-10">
             <h2 className="uppercase text-lg text-white font-medium">
@@ -99,7 +62,6 @@ const Staking = (): JSX.Element => {
           </a>
         </div>
       </div>
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
     </div>
   );
 };

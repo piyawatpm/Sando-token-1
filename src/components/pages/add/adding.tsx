@@ -6,56 +6,16 @@ const Adding = (): JSX.Element => {
     style={{ backgroundImage: `url(${'./images/sando-details/bg-details.png'})` }}
     >
       <div className="flex flex-col justify-center items-center">
-<<<<<<< HEAD
-      <img src="/images/sando-logo.svg" alt="sando logo image" className="w-48 mt-20 mb-10"/>
-
-            <div className="py-10 px-20 bg-[#171717] rounded-2xl shadow-xl z-20">
-              <div className="text-white text-left">
-                <div className="flex">
-=======
       <img src="/images/sando-logo.svg" alt="sando logo image" className="w-52 mt-20 mb-10"/>
 
             <div className="text-white py-10 px-10 bg-[#171717] rounded-2xl shadow-xl z-20">
               <div className="flex">
                 {/* 
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
                   <img
                     src="/images/sando-logo.svg"
                     alt="sando logo"
                     className="w-12 h-12"
                   />
-<<<<<<< HEAD
-                  <h1 className="uppercase text-4xl font-black cursor-pointer mt-2 ml-2 mb-2">
-                    Sando Token Address
-                  </h1>
-                </div>
-                <p className="flex text-base font-normal text-[#c4c4c4]">
-                  Name
-                  <h1 className="uppercase text-white text-base ml-5 font-extrabold">
-                    : sando
-                  </h1>
-                </p>
-                <p className="flex text-base font-normal text-[#c4c4c4] mt-1">
-                  Symbol
-                  <h1 className="uppercase text-white ml-2 font-extrabold	">
-                    : sando
-                  </h1>
-                </p>
-                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1">
-                  Decimal
-                  <h1 className="uppercase text-white ml-1 font-medium">
-                    : 18
-                  </h1>
-                </p>
-                <p className="flex text-base  font-normal text-[#c4c4c4] mt-1">
-                  Address :
-                  <a href="" className="ml-1 font-medium text-[#ff0090]">
-                    0xa8aB6A7fc3F3be783A212baE3aa8a866c99028e6
-                  </a>
-                </p>
-              </div>
-            </div>
-=======
                   */}
                   <h1 className="uppercase text-4xl font-black cursor-pointer mt-2 ml-2 mb-2 px-10">
                     Sando Token Address
@@ -93,7 +53,6 @@ const Adding = (): JSX.Element => {
                   <p className="ml-2 text-white text-lg font-medium">:</p>
                 </div>
                 </div>
->>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
        
 
           <div className="min-h-screen flex justify-center items-center mb-20">
