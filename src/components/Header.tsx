@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from "react";
+import SideBar from "./Sidebar";
 
 function Header(): JSX.Element {
-
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <header
-      className="navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]"
-    >
+    <header className="sticky top-0 z-50 navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]">
       <div className="relative mx-auto container">
-        <nav className="flex justify-between text-white ">
-          <div className="flex px-5 py-3 xl:px-12 flex w-full items-center ">
-          <a className="flex  font-heading" href="/">
-              <img src="/images/sando-logo-text.svg" alt="sando logo image" className="w-11/12"/>
+        <nav className="flex justify-between text-white">
+          <div className="flex px-5 py-3 xl:px-12 w-full items-center ">
+            <a className="flex  font-heading" href="/">
+              <img
+                src="/images/sando-logo-text.svg"
+                alt="sando logo image"
+                className="w-11/12"
+              />
             </a>
 
             {/*  Search component
@@ -26,17 +28,17 @@ function Header(): JSX.Element {
             </div>
 
              */}
-            <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12 ml-2">
-            <li>
+            <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12">
+              <li>
                 <a className="hover:text-gray-200" href="/">
                   Home
                 </a>
-              </li> 
+              </li>
               <li>
                 <a className="hover:text-gray-200" href="/sale">
                   Tokensale
                 </a>
-              </li> 
+              </li>
 
               <li>
                 <a className="hover:text-gray-200" href="/staking">
@@ -45,11 +47,42 @@ function Header(): JSX.Element {
               </li>
 
               <li>
-                <a className="hover:text-gray-200 mr-20" href="/buy">
+                <a className="hover:text-gray-200 mr-8" href="/buy">
                   Buy
                 </a>
-              </li>          
+              </li>
             </ul>
+
+            <div className=" dropdown inline-block relative z-10">
+              <button className=" text-white font-semibold py-1 px-1  inline-flex items-center">
+                <span className="mr-1">English</span>
+                <svg
+                  className="fill-current h-5 w-5 mr-10"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </button>
+              <ul className="dropdown-menu absolute hidden text-white pt-1 font-bold bg-zinc-800 rounded-lg mt-1">
+                <li className="">
+                  <a
+                    className="flex rounded hover:text-gray-300 py-2 px-4  block whitespace-no-wrap ml-2"
+                    href="#"
+                  >
+                    <span className="mr-2">Thai</span>
+                  </a>
+                </li>
+                <li className="">
+                  <a
+                    className="flex rounded  hover:text-gray-300 py-2 px-4  block whitespace-no-wrap ml-2"
+                    href="#"
+                  >
+                    <span className="mr-2">Turkish</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
             <div className="flex flex-col md:flex-row mt-5 md:mt-0 items-end md:items-center md:justify-end">
               {/*
@@ -60,19 +93,21 @@ function Header(): JSX.Element {
                 Connect Wallet
               </button>
                */}
-                <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
-                <a href="/login">Login</a> | <a href="/register">Register</a>
+              <div className="flex sr-only  lg:not-sr-only xl:not-sr-only 2xl:not-sr-only ">
+                <div className="relative top-2.5 mb-5 sm:mb-0 sm:mr-5 group text-white font-bold ">
+                  <a href="/login">Login</a> | <a href="/register">Register</a>
+                </div>
+                <button
+                  // href="/"
+                  className=" bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-3 px-5 rounded-full"
+                  type="submit"
+                  onClick={() => setShowModal(true)}
+                >
+                  Connect Wallet
+                </button>
               </div>
-              <button
-                    // href="/"
-                    className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-5 rounded-full"
-                    type="submit"
-                    onClick={() => setShowModal(true)}
-                  >
-                    Connect Wallet
-               </button>
 
-               {showModal ? (
+              {showModal ? (
                 <>
                   <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                     <div className="relative w-auto my-6 mx-auto max-w-3xl">
@@ -112,7 +147,8 @@ function Header(): JSX.Element {
                             </div>
                           </a>
                         </div>
-                        <div className="flex items-center justify-center py-5 mb-5">
+
+                        <div className="flex items-center justify-center mt-5">
                           <a
                             href="/metamask"
                             className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-5 rounded-xl"
@@ -127,55 +163,62 @@ function Header(): JSX.Element {
                             </div>
                           </a>
                         </div>
+                        <div className="flex items-center justify-center mt-5 px-10">
+                          <a
+                            href="/"
+                            className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-9 rounded-xl"
+                          >
+                            <div className="flex">
+                              <img
+                                src="/images/wallet/trust-wallet-icon.svg"
+                                className="w-11 "
+                                alt="trust wallet icon"
+                              />
+                              <h1 className="ml-3 pt-2">Trust Wallet</h1>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="flex items-center justify-center mt-5 mb-5 px-10">
+                          <a
+                            href="/"
+                            className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-12 rounded-xl"
+                          >
+                            <div className="flex">
+                              <img
+                                src="/images/wallet/phantom-icon.svg"
+                                className="w-12 "
+                                alt="phantom icon"
+                              />
+                              <h1 className="ml-5 pt-2">Phantom</h1>
+                            </div>
+                          </a>
+                        </div>
+                        <p className="flex items-center justify-center">
+                          What’s a Wallet?
+                        </p>
+                        <div className="flex items-center justify-center px-10">
+                          <a
+                            href="/wallet"
+                            className="mt-2 mb-5 w-48 inline-block text-center px-6 py-1 bg-[#FF0090] hover:bg-[#cc0274] text-white text-xl font-bold font-bold leading-normal rounded-full shadow-md hover:shadow-lg focus:bg-[#cc0274] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#cc0274] active:shadow-lg transition duration-150 ease-in-out"
+                          >
+                            Learn More
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                   <div className="backdrop-blur-lg fixed inset-0 z-40"></div>
                 </>
               ) : null}
-
             </div>
           </div>
-          <a className="xl:hidden flex mr-6 items-center" href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 hover:text-gray-200"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-              />
-            </svg>
-            <span className="flex absolute -mt-5 ml-4">
-              <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500" />
-            </span>
-          </a>
-          <a className="navbar-burger self-center mr-12 xl:hidden" href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 hover:text-gray-200"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </a>
+          <div className="float-right xl:hidden">
+            <SideBar className=" text-white xl:hidden" />
+          </div>
         </nav>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

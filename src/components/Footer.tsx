@@ -25,7 +25,7 @@ const Footer = (): JSX.Element => {
                   />
 
                   <p className="text-white font-normal text-sm ml-3 mt-2">
-                    Currency used for our partners platforms : <br /> Oceansky,
+                    Currency used for our project platforms : <br /> Oceansky,
                     Sandora and Metasando.
                   </p>
                 </div>
@@ -40,7 +40,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://facebook.com/sandotoken">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/FB.png"
                       alt="facebook"
                     />
@@ -50,7 +50,8 @@ const Footer = (): JSX.Element => {
                 <Link href="https://twitter.com/@Sando_Token">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Twitter.png"
                       alt="Twitter"
                     />
@@ -59,16 +60,17 @@ const Footer = (): JSX.Element => {
                 <Link href="https://instagram.com/Sandotoken">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Instagram.png"
                       alt="Instagram"
                     />
                   </a>
                 </Link>
-                <Link href="https://youtube.com">
+                <Link href="https://www.youtube.com/channel/UCFMswzNKdyDwS29b73269uw">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Youtube.png"
                       alt="Youtube"
                     />
@@ -77,25 +79,28 @@ const Footer = (): JSX.Element => {
                 <Link href="https://tiktok.com/@sandotoken">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/TikTok.png"
                       alt="TikTok"
                     />
                   </a>
                 </Link>
-                <Link href="https://linkedin.com/">
+
+                <Link href="https://www.linkedin.com/in/sando-token-a94282233/">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Linkedin.png"
                       alt="Linkedin"
                     />
                   </a>
                 </Link>
-                <Link href="https://discord.com/channels/955559445843284009/955559446585684020">
+
+                <Link href="https://discord.gg/gjPUjuQY">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Discord.png"
                       alt="Discord"
                     />
@@ -104,7 +109,8 @@ const Footer = (): JSX.Element => {
                 <Link href="https://t.me/+hk4UEOF_HGdlNDI1">
                   <a target="_blank">
                     <img
-                      className="h-10 w-10 opacity-75 hover:opacity-100"
+
+                      className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Telegram.png"
                       alt="Telegram"
                     />
@@ -161,9 +167,10 @@ const Footer = (): JSX.Element => {
                 <li>
                   <a
                     className="font-normal text-base hover:text-gray-200"
-                    href="/partners"
+
+                    href="/projects"
                   >
-                    Partners
+                    Projects
                   </a>
                 </li>
                 <li>
@@ -180,6 +187,14 @@ const Footer = (): JSX.Element => {
                     href="/gasfee"
                   >
                     Gas Fees Token
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="font-normal text-base hover:text-gray-200"
+                    href="/wallet"
+                  >
+                   Wallet
                   </a>
                 </li>
               </ul>
@@ -253,7 +268,8 @@ const Footer = (): JSX.Element => {
                     className="font-normal hover:text-gray-200 text-base"
                     href="/help"
                   >
-                    Help Center
+
+                    Help Centre
                   </a>
                 </li>
               </ul>

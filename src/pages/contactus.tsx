@@ -67,7 +67,7 @@ function Contactus(): JSX.Element {
             <div className="mt-7">
               <label className="block">
                 <span className="text-white pl-2">
-                  Upload screenshort, document, and more.
+                  Upload screenshot, document, and more.
                 </span>
                 <p id="file_name" className="text-xs mt-3 ml-2">
                   PDF,PNG,JPEG Max file size 10MB.
@@ -94,7 +94,7 @@ function Contactus(): JSX.Element {
                 <span className="text-white pl-2"> Message</span>
                 <textarea
                   className="mt-2 text-black text-xs h-40   placeholder:text-slate-400 block w-full rounded-3xl p-5 shadow-sm focus:outline-none"
-                  placeholder="Please include as much information as possible so we can evaluateand effetively respound to inquiry."
+                  placeholder="Please include as much information as possible so we can evaluate and effetively respond to inquiry."
                   name="item_desc"
                 />
               </label>

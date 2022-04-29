@@ -26,7 +26,11 @@ const Banner = (): JSX.Element => {
                       Total Amount Staked
                     </h6>
                     <h1 className="text-5xl my-5 mb-10 mt-10">
+<<<<<<< HEAD
                       $1,734,5482.71
+=======
+                      1,734,5482.71 SANDO
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
                     </h1>
                     <h1 className="text-3xl text-[#41FA00] my-5 mt-10 mb-10">
                       APR 3075.75 %

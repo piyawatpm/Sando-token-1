@@ -14,27 +14,48 @@ const Buying = (): JSX.Element => {
                   className="w-12 h-12"
                 />
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <h1 className="text-3xl font-bold mt-2 cursor-poiter ml-2">
                   Buy
                 </h1>
 
                 <div className="relative justify-center ml-10 mt-5 px-10 mb-5">
+=======
+                <div>
+                  <h1 className="text-4xl font-bold  cursor-poiter ml-2">
+                    Buy
+                  </h1>
+                  <p className="flex w-80 text-sm mb-8 font-light ml-2">
+                    Powered by Sando Token
+                  </p>
+                </div>
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
 
+                <div className="relative justify-center ml-10 mt-5  mb-5">
                   <div className="flex justify-center text-xs ml-20">
                     <div className="w-2 h-2 rounded-full bg-[#39db21] mt-1"></div>
-                    <p className="ml-1">Network</p>
+                    <p className="ml-1 mb-2 mr-4">Network</p>
                   </div>
+<<<<<<< HEAD
 
                   <div className=" dropdown inline-block relative">
                     <button className="bg-gray-300 text-gray-700 font-semibold py-1 px-4 rounded-full inline-flex items-center">
                   <div className="relative dropdown inline-block relative">
                     <button className="bg-gray-300 text-gray-700 font-semibold py-1 px-1 rounded-full inline-flex items-center">
 
+=======
+                  <div className=" dropdown inline-block relative">
+                    <button className="bg-gray-300 text-gray-700 font-semibold py-1 px-1 rounded-full inline-flex items-center">
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
                       <svg
                         className="fill-current h-5 w-5"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                       >
+<<<<<<< HEAD
+=======
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
                       </svg>
                       <span className="ml-1 mr-2">Ethereum</span>
                       <img
@@ -50,6 +71,7 @@ const Buying = (): JSX.Element => {
                           href="#"
                         >
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <span className="ml-2 mr-2">Ethereum</span>
                           <img
                             src="/images/ico-eth.png"
@@ -58,6 +80,11 @@ const Buying = (): JSX.Element => {
                           <img
                             src="/images/icons/eth-icon.svg"
 >>>>>>> 007ae69358f959ed6a091ae2e58065870d691af4
+=======
+                          <span className="mr-2">Ethereum</span>
+                          <img
+                            src="/images/icons/eth-icon.svg"
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
                             alt="ethereum-icon"
                             className="flex w-8"
                           />
@@ -65,6 +92,7 @@ const Buying = (): JSX.Element => {
                       </li>
                       <li className="">
                         <a
+<<<<<<< HEAD
 <<<<<<< HEAD
                           className="flex rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4  block whitespace-no-wrap"
                           href="#"
@@ -93,6 +121,14 @@ const Buying = (): JSX.Element => {
                           <img
                             src="/images/icons/eth-icon.svg"
 >>>>>>> 007ae69358f959ed6a091ae2e58065870d691af4
+=======
+                          className="flex rounded bg-gray-200 hover:bg-gray-400 py-2 px-4  block whitespace-no-wrap"
+                          href="#"
+                        >
+                          <span className="mr-2">Ethereum</span>
+                          <img
+                            src="/images/icons/eth-icon.svg"
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
                             alt="ethereum-icon"
                             className="flex w-8"
                           />
@@ -103,11 +139,14 @@ const Buying = (): JSX.Element => {
                 </div>
               </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <p className="flex w-80 text-sm mb-8 font-semibold tracking-wide cursor-pointer">
                 Powered by Sando Token
               </p>
 =======
 >>>>>>> 007ae69358f959ed6a091ae2e58065870d691af4
+=======
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
             </div>
 
             <div className="flex float-right mt-10 mr-12">

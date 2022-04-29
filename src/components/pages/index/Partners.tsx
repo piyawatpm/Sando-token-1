@@ -4,7 +4,7 @@ const Partners = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10">
       <h1 className="uppercase text-[#FF0090] text-4xl font-black p-10">
-        Our Partners
+        Our Projects
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-10 mr-10 text-black">
         <div className="lg:w-full md:w-90 h-64 ">

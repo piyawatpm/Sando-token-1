@@ -8,6 +8,7 @@ import Partners from '@/components/pages/index/Partners'
 import Roadmap from "@/components/pages/index/Roadmap"
 import Tokenomics from "@/components/pages/index/Tokenomics"
 import Token from "@/components/pages/index/Token"
+import Howto from "@/components/pages/index/howto"
 
 function Home(): JSX.Element {
   return (
@@ -18,6 +19,7 @@ function Home(): JSX.Element {
         <HeroSection />
         <Partners/>
         <Token />
+        <Howto/>
         <Tokenomics />
         <Roadmap />
         <Distribution/>   

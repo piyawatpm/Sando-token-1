@@ -5,7 +5,7 @@ function Help(): JSX.Element {
       <div className="relative overflow-hidden mx-auto w-full  container px-20">
         <div className="flex flex-col justify-center items-center">
           <h1 className="uppercase text-3xl font-black text-[#ff0090] mb-5 text-center py-5">
-            Help canter
+            Help centre
           </h1>
           <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
             <div className="lg:w-72 md:w-64  ">
@@ -14,8 +14,8 @@ function Help(): JSX.Element {
                   <h1 className=" text-2xl text-[#ffb700] text-center font-bold">
                     Add Sando Token
                   </h1>
-                  <p className="text-white text-base text-center mt-2 mb-6">
-                    How to add SANDO TOKEN <br /> in my wallet{" "}
+                  <p className="text-white text-base text-center mt-2 mb-6 mx-2">
+                    How to add <br /> SANDO TOKEN <br /> to my wallet
                   </p>
                 </div>
               </div>
@@ -27,9 +27,9 @@ function Help(): JSX.Element {
                   <h1 className=" text-2xl text-[#ffb700] text-center font-bold">
                     Buying
                   </h1>
-                  <p className="text-white text-base text-center mt-2">
-                    How to buy SANDO TOKEN, and <br /> calculate the exchange
-                    rate <br /> Ethereum or USDC to Sando Tokens{" "}
+                  <p className="text-white text-base text-center mt-2 mx-2">
+                    How to buy SANDO TOKEN and convert the exchange rate,
+                    Ethereum or USDC into Sando Tokens
                   </p>
                 </div>
               </div>
@@ -41,7 +41,7 @@ function Help(): JSX.Element {
                   <h1 className=" text-2xl text-[#ffb700] text-center font-bold mb-20">
                     Can’t unstake
                   </h1>
-                  <p className="text-white text-base text-center mt-2"></p>
+                  <p className="text-white text-base text-center mt-2 mx-2"></p>
                 </div>
               </div>
             </div>

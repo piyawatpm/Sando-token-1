@@ -21,7 +21,7 @@ const HeroSection = (): JSX.Element => {
                 </div>
 
                 <div className="text-white">
-                  <h1 className="uppercase text-6xl font-black ml-10 mb-10">
+                  <h1 className="uppercase sm:text-3xl md:text-6xl lg:text-6xl 2xl:text-6xl font-black ml-10 mb-10 ">
                     SANDO Growth with <br /> the world
                   </h1>
 
@@ -77,7 +77,7 @@ const HeroSection = (): JSX.Element => {
 
                         <div className="flex items-center justify-center mt-5 px-10">
                           <a
-                            href="/metamask"
+                            href="/"
                             className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-11 rounded-xl"
                           >
                             <div className="flex">
@@ -90,9 +90,9 @@ const HeroSection = (): JSX.Element => {
                             </div>
                           </a>
                         </div>
-                        <div className="flex items-center justify-center py-5 mb-5">
+                        <div className="flex items-center justify-center mt-5">
                           <a
-                            href="/metamask"
+                            href="/"
                             className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-5 rounded-xl"
                           >
                             <div className="flex">
@@ -103,6 +103,47 @@ const HeroSection = (): JSX.Element => {
                               />
                               <h1 className="ml-2 pt-2">WalletConnect</h1>
                             </div>
+                          </a>
+                        </div>
+                        <div className="flex items-center justify-center mt-5 px-10">
+                          <a
+                            href="/"
+                            className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-9 rounded-xl"
+                          >
+                            <div className="flex">
+                              <img
+                                src="/images/wallet/trust-wallet-icon.svg"
+                                className="w-11 "
+                                alt="trust wallet icon"
+                              />
+                              <h1 className="ml-3 pt-2">Trust Wallet</h1>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="flex items-center justify-center mt-5 mb-5 px-10">
+                          <a
+                            href="/"
+                            className="bg-[#f0f0f0] hover:bg-[#c4c4c4] text-black text-2xl font-bold py-2 px-12 rounded-xl"
+                          >
+                            <div className="flex">
+                              <img
+                                src="/images/wallet/phantom-icon.svg"
+                                className="w-12 "
+                                alt="phantom icon"
+                              />
+                              <h1 className="ml-5 pt-2">Phantom</h1>
+                            </div>
+                          </a>
+                        </div>
+                        <p className="flex items-center justify-center">
+                          What’s a Wallet?
+                        </p>
+                        <div className="flex items-center justify-center px-10">
+                          <a
+                            href="/wallet"
+                            className="mt-2 mb-5 w-48 inline-block text-center px-6 py-1 bg-[#FF0090] hover:bg-[#cc0274] text-white text-xl font-bold font-bold leading-normal rounded-full shadow-md hover:shadow-lg focus:bg-[#cc0274] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#cc0274] active:shadow-lg transition duration-150 ease-in-out"
+                          >
+                            Learn More
                           </a>
                         </div>
                       </div>

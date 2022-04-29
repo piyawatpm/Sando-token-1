@@ -196,11 +196,11 @@ const Tokenomics = (): JSX.Element => {
               <div className="">
                 <div className="py-5 text-xl text-white font-semibold px-10">
                   <h1 className="uppercase text-[#FF0090] text-4xl font-black mt-10">
-                    The sando Tokenomic
+                    The Sando Tokenomics
                   </h1>
                 </div>
 
-                <h3 className="text-white text-xl font-bold px-10">Token Data</h3>
+                <h3 className="text-[#ffb700] text-xl font-bold px-10">Token Data</h3>
                 <div className="flex px-10">
                   <h3 className="text-white text-lg font-medium">
                     Token Ticker :

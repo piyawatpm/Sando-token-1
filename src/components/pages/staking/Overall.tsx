@@ -3,7 +3,11 @@ import React from 'react'
 const Overall = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-10">
+<<<<<<< HEAD
       <h1 className="uppercase text-3xl font-bold text-white ml-10"> Overall</h1>
+=======
+      <h1 className="uppercase text-3xl font-bold text-[#FF0090] ml-10"> Overall</h1>
+>>>>>>> 37b53202357711306e2e6e0e2eebee4d620e9dd9
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-10 mr-10 mt-5 text-black">
         <div className="lg:w-full md:w-90 h-64 ">
           <div
@@ -22,7 +26,7 @@ const Overall = (): JSX.Element => {
             <div className="mt-10 mb-5 mr-5">
               <a
                 href="/buy"
-                className="mt-10 float-right bg-[#FFB700] hover:bg-[#fb8700] text-black text-sm font-bold py-2 px-10 rounded-full ml-5"
+                className="mt-10 float-right bg-[#FFB700] hover:bg-[#fb8700] text-black font-bold py-1 px-10 rounded-full ml-5"
               >
                 Buy now
               </a>
@@ -47,7 +51,7 @@ const Overall = (): JSX.Element => {
             <div className="mt-10 mb-5 mr-5">
               <a
                 href="/"
-                className="mt-10 float-right bg-[#FF0090] hover:bg-[#CC0073] text-white text-sm font-bold py-2 px-10 rounded-full ml-5"
+                className="mt-10 float-right bg-[#FFB700] hover:bg-[#fb8700] text-black  font-bold py-1 px-10 rounded-full ml-5"
               >
                 Connect Wallet
               </a>
@@ -72,7 +76,7 @@ const Overall = (): JSX.Element => {
             <div className="mt-10 mb-5 mr-5">
               <a
                 href="/"
-                className="mt-10 float-right bg-[#FF0090] hover:bg-[#CC0073] text-white text-sm font-bold py-2 px-10 rounded-full ml-5"
+                className="mt-10 float-right bg-[#FFB700] hover:bg-[#fb8700] text-black font-bold py-1 px-10 rounded-full ml-5"
               >
                 Connect Wallet
               </a>
