@@ -5,22 +5,22 @@ const HeroSection = (): JSX.Element => {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <div className="relative overflow-hidden mx-auto w-full container mb-10">
-      <div className="flex flex-col   justify-center items-center">
-        <div className="relative  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
+    <div className="relative overflow-hidden mx-auto w-full container mb-10 ">
+      <div className=" flex-col   justify-center items-center">
+        <div className="  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 md:w-screen sm:w-screen lg:w-screen">
           <div
-            className="relative overflow-hidden w-full flex py-5 mb-10  bg-cover bg-center md:w-1/2 lg:w-full"
+            className=" overflow-hidden w-full py-5 mb-10  bg-cover bg-center "
             style={{ backgroundImage: `url(${"./images/web/bg.png"})` }}
           >
-            <div className="md:flex justify-center items-center px-10">
+            <div className="md:flex justify-center items-center px-10 ">
               <div className="md:shrink-0 px-10 ml-20">
-                <div className="flex py-1 tracking-wide text-sm text-white font-semibold">
+                <div className=" py-1 tracking-wide text-sm text-white font-semibold">
                   <h6 className="uppercase text-[#FF0090] font-bold mb-10 ml-10">
                     SANDO Token, The Token for oceansky, sandora and metasando
                   </h6>
                 </div>
 
-                <div className="text-white">
+                <div className="text-white ">
                   <h1 className="uppercase sm:text-3xl md:text-6xl lg:text-6xl 2xl:text-6xl font-black ml-10 mb-10 ">
                     SANDO Growth with <br /> the world
                   </h1>

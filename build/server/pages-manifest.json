@@ -26,6 +26,7 @@
   "/visa": "pages/visa.html",
   "/wallet": "pages/wallet.html",
   "/wallets": "pages/wallets.html",
+  "/whitepaper": "pages/whitepaper.html",
   "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }

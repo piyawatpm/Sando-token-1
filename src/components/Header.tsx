@@ -5,10 +5,10 @@ function Header(): JSX.Element {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-50 navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]">
+    <header className="sticky top-0 z-50 navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f] ">
       <div className="relative mx-auto container">
         <nav className="flex justify-between text-white">
-          <div className="flex px-5 py-3 xl:px-12 w-full items-center ">
+          <div className="flex px-5 py-3 xl:px-12 w-full items-center md:w-screen sm:w-screen lg:w-screen">
             <a className="flex  font-heading" href="/">
               <img
                 src="/images/sando-logo-text.svg"
@@ -28,7 +28,7 @@ function Header(): JSX.Element {
             </div>
 
              */}
-            <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12">
+            <ul className="sr-only xl:not-sr-only 2xl:not-sr-only hidden md:flex  mx-auto font-bold font-heading space-x-5">
               <li>
                 <a className="hover:text-gray-200" href="/">
                   Home
@@ -47,8 +47,13 @@ function Header(): JSX.Element {
               </li>
 
               <li>
-                <a className="hover:text-gray-200 mr-8" href="/buy">
+                <a className="hover:text-gray-200" href="/buy">
                   Buy
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-gray-200 mr-5" href="/whitepaper">
+                  Whitepaper
                 </a>
               </li>
             </ul>
@@ -57,7 +62,7 @@ function Header(): JSX.Element {
               <button className=" text-white font-semibold py-1 px-1  inline-flex items-center">
                 <span className="mr-1">English</span>
                 <svg
-                  className="fill-current h-5 w-5 mr-10"
+                  className="fill-current h-5 w-5 mr-8"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                 >
@@ -93,7 +98,7 @@ function Header(): JSX.Element {
                 Connect Wallet
               </button>
                */}
-              <div className="flex sr-only  lg:not-sr-only xl:not-sr-only 2xl:not-sr-only ">
+              <div className="flex sr-only  xl:not-sr-only 2xl:not-sr-only ">
                 <div className="relative top-2.5 mb-5 sm:mb-0 sm:mr-5 group text-white font-bold ">
                   <a href="/login">Login</a> | <a href="/register">Register</a>
                 </div>

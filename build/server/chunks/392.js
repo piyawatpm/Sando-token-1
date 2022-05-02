@@ -83,13 +83,13 @@ var jsx_runtime_ = __webpack_require__(5282);
 function Header() {
   const [showModal, setShowModal] = external_react_default().useState(false);
   return /*#__PURE__*/jsx_runtime_.jsx("header", {
-    className: "sticky top-0 z-50 navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]",
+    className: "sticky top-0 z-50 navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f] ",
     children: /*#__PURE__*/jsx_runtime_.jsx("div", {
       className: "relative mx-auto container",
       children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("nav", {
         className: "flex justify-between text-white",
         children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-          className: "flex px-5 py-3 xl:px-12 w-full items-center ",
+          className: "flex px-5 py-3 xl:px-12 w-full items-center md:w-screen sm:w-screen lg:w-screen",
           children: [/*#__PURE__*/jsx_runtime_.jsx("a", {
             className: "flex  font-heading",
             href: "/",
@@ -99,7 +99,7 @@ function Header() {
               className: "w-11/12"
             })
           }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("ul", {
-            className: "hidden md:flex  mx-auto font-bold font-heading space-x-12",
+            className: "sr-only xl:not-sr-only 2xl:not-sr-only hidden md:flex  mx-auto font-bold font-heading space-x-5",
             children: [/*#__PURE__*/jsx_runtime_.jsx("li", {
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
                 className: "hover:text-gray-200",
@@ -120,9 +120,15 @@ function Header() {
               })
             }), /*#__PURE__*/jsx_runtime_.jsx("li", {
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                className: "hover:text-gray-200 mr-8",
+                className: "hover:text-gray-200",
                 href: "/buy",
                 children: "Buy"
+              })
+            }), /*#__PURE__*/jsx_runtime_.jsx("li", {
+              children: /*#__PURE__*/jsx_runtime_.jsx("a", {
+                className: "hover:text-gray-200 mr-5",
+                href: "/whitepaper",
+                children: "Whitepaper"
               })
             })]
           }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
@@ -133,7 +139,7 @@ function Header() {
                 className: "mr-1",
                 children: "English"
               }), /*#__PURE__*/jsx_runtime_.jsx("svg", {
-                className: "fill-current h-5 w-5 mr-10",
+                className: "fill-current h-5 w-5 mr-8",
                 xmlns: "http://www.w3.org/2000/svg",
                 viewBox: "0 0 20 20",
                 children: /*#__PURE__*/jsx_runtime_.jsx("path", {
@@ -167,7 +173,7 @@ function Header() {
           }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
             className: "flex flex-col md:flex-row mt-5 md:mt-0 items-end md:items-center md:justify-end",
             children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-              className: "flex sr-only  lg:not-sr-only xl:not-sr-only 2xl:not-sr-only ",
+              className: "flex sr-only  xl:not-sr-only 2xl:not-sr-only ",
               children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
                 className: "relative top-2.5 mb-5 sm:mb-0 sm:mr-5 group text-white font-bold ",
                 children: [/*#__PURE__*/jsx_runtime_.jsx("a", {
