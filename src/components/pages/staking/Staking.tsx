@@ -3,6 +3,7 @@ import React from "react";
 const Staking = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-20">
+
       <h1 className="uppercase text-3xl font-bold text-[#FF0090] mb-5">
         staking
       </h1>
@@ -29,6 +30,7 @@ const Staking = (): JSX.Element => {
               Unstake
             </a>
           </div>
+
 
           <div className="relative space-y-1 mt-5 mb-5 text-white px-10">
             <h2 className="uppercase text-lg text-white font-medium">

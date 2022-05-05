@@ -6,12 +6,14 @@ const Gasfee = (): JSX.Element => {
       <div className="flex flex-col   justify-center items-center px-10">
         <div className="relative  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
           <div className="md:flex justify-center items-center ml-20">
+
             <div className="md:shrink-0 ml-20 w-3/4">
               <div className="text-[#FF0090] py-10 ml-20">
                 <h1 className="uppercase text-5xl font-black px-20 ml-20 mb-10 mt-10 ">
                   Gas Fees Token
                 </h1>
                 <div className="ml-20">
+
                   <p className="font-extrabold text-xl text-[#FF0090] ml-20">
                     Before you purchase SANDO, please understand gas fees
                   </p>
@@ -41,6 +43,7 @@ const Gasfee = (): JSX.Element => {
 
               <div className="text-[#FF0090] py-5 ml-20">
                 <div className="ml-20">
+
                   <h1 className="uppercase text-3xl font-black ml-20 mb-10 mt-10 ">
                     What is a Gwei?
                   </h1>
@@ -58,6 +61,7 @@ const Gasfee = (): JSX.Element => {
 
               <div className="text-[#FF0090] py-5 ml-20">
                 <div className="ml-20">
+
                   <h1 className="uppercase text-3xl font-black ml-20 mb-10 mt-10 ">
                     How Gwei Works?
                   </h1>
@@ -72,6 +76,7 @@ const Gasfee = (): JSX.Element => {
 
               <div className="text-[#FF0090] py-5  mb-20 ml-20">
                 <div className="ml-20">
+
                   <h1 className="uppercase text-3xl font-black ml-20 mb-10 mt-10 ">
                     How much do I need?
                   </h1>
@@ -101,6 +106,7 @@ const Gasfee = (): JSX.Element => {
                   className="w-80 mt-20 ml-10 px-10"
                 />
                 <div className="flex ml-20 py-10 px-20">
+
                   <img
                     src="/images/gasfees/gasfee-1.svg"
                     alt=" gasfee image"

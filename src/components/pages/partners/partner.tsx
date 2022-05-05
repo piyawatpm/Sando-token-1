@@ -7,6 +7,7 @@ const Partner = (): JSX.Element => {
      // style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
     >
       <h1 className="uppercase text-3xl font-bold text-[#ff0090] mb-5 text-center py-5">
+
         Projects
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
@@ -88,6 +89,7 @@ const Partner = (): JSX.Element => {
           </div>
         </div>
       </div>
+
       <div className="px-20 py-20 mt-10 bg-black/50 backdrop-blur rounded-2xl">
         <p className="text-white font-light text-2xl tracking-wide ml-2 text-justify ">
         As a crypto-based platform, SANDORA launches a cryptocurrency that facilitates user transactions . The SANDORA platform allows users to be able to get these tokens through supported exchanges. 

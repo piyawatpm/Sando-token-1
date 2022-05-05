@@ -13,6 +13,7 @@ const Buying = (): JSX.Element => {
                   alt="sando logo"
                   className="w-12 h-12"
                 />
+
                 <div>
                   <h1 className="text-4xl font-bold  cursor-poiter ml-2">
                     Buy
@@ -49,6 +50,7 @@ const Buying = (): JSX.Element => {
                           className="flex rounded bg-gray-200 hover:bg-gray-400 py-2 px-4  block whitespace-no-wrap"
                           href="#"
                         >
+
                           <span className="mr-2">Ethereum</span>
                           <img
                             src="/images/icons/eth-icon.svg"
@@ -62,6 +64,12 @@ const Buying = (): JSX.Element => {
                           className="flex rounded bg-gray-200 hover:bg-gray-400 py-2 px-4  block whitespace-no-wrap"
                           href="#"
                         >
+                          <span className="mr-2">Ethereum</span>
+                          <img
+                            src="/images/icons/eth-icon.svg"
+                          className="flex rounded bg-gray-200 hover:bg-gray-400 py-2 px-4  block whitespace-no-wrap"
+                         
+                        />
                           <span className="mr-2">Ethereum</span>
                           <img
                             src="/images/icons/eth-icon.svg"

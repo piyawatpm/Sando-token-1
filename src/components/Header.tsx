@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
+import SideBar from "./Sidebar";
 
 function Header(): JSX.Element {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <header className="navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f]">
+    <header className="sticky top-0 z-50 navbar white bg-cover bg-center bg-no-repeat bg-[#0f0f0f] ">
       <div className="relative mx-auto container">
         <nav className="flex justify-between text-white">
-          <div className="flex px-5 py-3 xl:px-12 flex w-full items-center ">
+          <div className="flex px-5 py-3 xl:px-12 w-full items-center md:w-screen sm:w-screen lg:w-screen">
             <a className="flex  font-heading" href="/">
               <img
                 src="/images/sando-logo-text.svg"
@@ -27,7 +28,7 @@ function Header(): JSX.Element {
             </div>
 
              */}
-            <ul className="hidden md:flex  mx-auto font-bold font-heading space-x-12">
+            <ul className="sr-only xl:not-sr-only 2xl:not-sr-only hidden md:flex  mx-auto font-bold font-heading space-x-5">
               <li>
                 <a className="hover:text-gray-200" href="/">
                   Home
@@ -46,8 +47,13 @@ function Header(): JSX.Element {
               </li>
 
               <li>
-                <a className="hover:text-gray-200 mr-8" href="/buy">
+                <a className="hover:text-gray-200" href="/buy">
                   Buy
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-gray-200 mr-5" href="/whitepaper">
+                  Whitepaper
                 </a>
               </li>
             </ul>
@@ -56,7 +62,7 @@ function Header(): JSX.Element {
               <button className=" text-white font-semibold py-1 px-1  inline-flex items-center">
                 <span className="mr-1">English</span>
                 <svg
-                  className="fill-current h-5 w-5 mr-10"
+                  className="fill-current h-5 w-5 mr-8"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                 >
@@ -92,18 +98,19 @@ function Header(): JSX.Element {
                 Connect Wallet
               </button>
                */}
-
-              <div className="relative mb-5 md:mb-0 md:mr-10 group text-white">
-                <a href="/login">Login</a> | <a href="/register">Register</a>
+              <div className="flex sr-only  xl:not-sr-only 2xl:not-sr-only ">
+                <div className="relative top-2.5 mb-5 sm:mb-0 sm:mr-5 group text-white font-bold ">
+                  <a href="/login">Login</a> | <a href="/register">Register</a>
+                </div>
+                <button
+                  // href="/"
+                  className=" bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-3 px-5 rounded-full"
+                  type="submit"
+                  onClick={() => setShowModal(true)}
+                >
+                  Connect Wallet
+                </button>
               </div>
-              <button
-                // href="/"
-                className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-5 rounded-full"
-                type="submit"
-                onClick={() => setShowModal(true)}
-              >
-                Connect Wallet
-              </button>
 
               {showModal ? (
                 <>
@@ -210,42 +217,9 @@ function Header(): JSX.Element {
               ) : null}
             </div>
           </div>
-          <a className="xl:hidden flex mr-6 items-center" href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 hover:text-gray-200"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-              />
-            </svg>
-            <span className="flex absolute -mt-5 ml-4">
-              <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500" />
-            </span>
-          </a>
-          <a className="navbar-burger self-center mr-12 xl:hidden" href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 hover:text-gray-200"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </a>
+          <div className="float-right xl:hidden">
+            <SideBar className=" text-white xl:hidden" />
+          </div>
         </nav>
       </div>
     </header>

@@ -50,6 +50,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://twitter.com/@Sando_Token">
                   <a target="_blank">
                     <img
+
                       className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Twitter.png"
                       alt="Twitter"
@@ -59,6 +60,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://instagram.com/Sandotoken">
                   <a target="_blank">
                     <img
+
                       className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Instagram.png"
                       alt="Instagram"
@@ -77,12 +79,14 @@ const Footer = (): JSX.Element => {
                 <Link href="https://tiktok.com/@sandotoken">
                   <a target="_blank">
                     <img
+
                       className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/TikTok.png"
                       alt="TikTok"
                     />
                   </a>
                 </Link>
+
                 <Link href="https://www.linkedin.com/in/sando-token-a94282233/">
                   <a target="_blank">
                     <img
@@ -92,6 +96,7 @@ const Footer = (): JSX.Element => {
                     />
                   </a>
                 </Link>
+
                 <Link href="https://discord.gg/gjPUjuQY">
                   <a target="_blank">
                     <img
@@ -104,6 +109,7 @@ const Footer = (): JSX.Element => {
                 <Link href="https://t.me/+hk4UEOF_HGdlNDI1">
                   <a target="_blank">
                     <img
+
                       className="h-10 w-10 hover:opacity-75"
                       src="/images/social_media/Telegram.png"
                       alt="Telegram"
@@ -161,6 +167,7 @@ const Footer = (): JSX.Element => {
                 <li>
                   <a
                     className="font-normal text-base hover:text-gray-200"
+
                     href="/projects"
                   >
                     Projects
@@ -261,6 +268,7 @@ const Footer = (): JSX.Element => {
                     className="font-normal hover:text-gray-200 text-base"
                     href="/help"
                   >
+
                     Help Centre
                   </a>
                 </li>

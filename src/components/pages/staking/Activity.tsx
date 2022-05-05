@@ -3,6 +3,7 @@ import react from 'react'
 const Activity = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-20">
+
       <h1 className="text-3xl font-bold text-[#FF0090]"> Your Activity</h1>
 
       {/* 
