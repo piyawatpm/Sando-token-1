@@ -4,33 +4,33 @@ const Roadmap = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container">
       <div className="flex flex-col  justify-center items-center">
-        <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 px-10">
+        <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden ">
           <div
-            className="relative overflow-hidden mx-auto w-full container flex py-5 mb-10 bg-cover bg-center h-100 md:w-1/2 lg:w-full"
+            className="relative overflow-hidden mx-auto w-full flex py-5 mb-10 bg-cover bg-center h-full rounded-2xl"
             style={{ backgroundImage: `url(${'./images/web/roadmap-bg.png'})` }}
           >
             <div className="justify-center items-center px-10 py-5 ">
               <div className="">
-                <div className="py-5 text-xl text-white font-semibold px-10 text-center">
-                  <h1 className="uppercase text-[#FF0090] text-4xl font-black mt-10">
+                <div className="py-5 text-xl text-white font-semibold ">
+                  <h1 className="uppercase text-transparent textgradient text-4xl  mt-10">
                     Roadmap Token
                   </h1>
                 </div>
 
-                <div className="md:flex items-center justify-center">
-                  <div className="md:shrink-0">
+                <div className="md:flex items-center justify-center break-words">
+                  <div className="md:shrink-0 ">
                     <div className="flex py-1 text-xl text-white font-semibold">
-                      <div className="flex px-10 ml-10">
+                      <div className="flex">
                         <h1 className="text-3xl text-white font-bold">
                           Quarter
                         </h1>
-                        <div className="w-10 h-10 rounded-full bg-pink-600 px-2 text-3xl text-white font-bold text-center ml-2">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-b from-[#FF0190] to-[#B903FD] px-2 text-3xl text-white font-bold text-center ml-2">
                           1
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex  text-xl text-white font-normal px-10 ml-10">
+                    <div className="flex  text-xl text-white font-normal ">
                       <ul className="marker:text-red list-outside list-disc text-xl   leading-none">
                         <li className=" text-[#ffb700] text-3xl ml-5   leading-none">
                           <div className="text-white text-lg">
@@ -86,13 +86,13 @@ const Roadmap = (): JSX.Element => {
                         <h1 className="text-3xl text-white font-bold">
                           Quarter
                         </h1>
-                        <div className="w-10 h-10 rounded-full bg-pink-600 px-2 text-3xl text-white font-bold text-center ">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-b from-[#FF0190] to-[#B903FD] px-2 text-3xl text-white font-bold text-center ml-2">
                           2
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex  text-xl text-white font-normal px-10 ml-10">
+                    <div className="flex  text-xl text-white font-normal ">
                       <ul className="marker:text-red list-outside list-disc text-xl">
                         <li className=" text-[#ffb700] text-3xl ml-5">
                           <div className="text-white text-lg">
@@ -149,7 +149,7 @@ const Roadmap = (): JSX.Element => {
                         <h1 className="text-3xl text-white font-bold px-2">
                           Quarter
                         </h1>
-                        <div className="w-10 h-10 rounded-full bg-pink-600 px-2 text-3xl text-white font-bold text-center ">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-b from-[#FF0190] to-[#B903FD] px-2 text-3xl text-white font-bold text-center ">
                           3
                         </div>
                       </div>
@@ -198,7 +198,7 @@ const Roadmap = (): JSX.Element => {
                         <h1 className="text-4xl text-white font-bold px-2">
                           Quarter
                         </h1>
-                        <div className="w-10 h-10 rounded-full bg-pink-600 px-2 text-3xl text-white font-bold text-center ">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-b from-[#FF0190] to-[#B903FD] px-2 text-3xl text-white font-bold text-center ">
                           4
                         </div>
                       </div>

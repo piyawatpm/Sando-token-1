@@ -5,32 +5,32 @@ const HeroSection = (): JSX.Element => {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <div className="relative overflow-hidden mx-auto w-full container mb-10 ">
-      <div className=" flex-col   justify-center items-center">
+    <div className="relative overflow-hidden mx-auto w-full  mb-10 ">
+      <div className=" flex-col justify-center items-center">
         <div className="  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 md:w-screen sm:w-screen lg:w-screen">
           <div
             className=" overflow-hidden w-full py-5 mb-10  bg-cover bg-center "
             style={{ backgroundImage: `url(${"./images/web/bg.png"})` }}
           >
-            <div className="md:flex justify-center items-center px-10 ">
+            <div className="2xl:flex  xl:flex  justify-center items-center mx-auto container">
               <div className="md:shrink-0 px-10 ml-20">
                 <div className=" py-1 tracking-wide text-sm text-white font-semibold">
-                  <h6 className="uppercase text-[#FF0090] font-bold mb-10 ml-10">
+                  <h6 className="uppercase font-bold mb-5">
                     SANDO Token, The Token for oceansky, sandora and metasando
                   </h6>
                 </div>
 
-                <div className="text-white ">
-                  <h1 className="uppercase sm:text-3xl md:text-6xl lg:text-6xl 2xl:text-6xl font-black ml-10 mb-10 ">
+                <div className="text-white  ">
+                  <h1 className="uppercase text-transparent textgradient  sm:text-3xl md:text-6xl lg:text-6xl 2xl:text-6xl font-black mb-5 ">
                     SANDO Growth with <br /> the world
                   </h1>
 
-                  <p className=" ml-10 font-light text-xl">
+                  <p className=" font-light text-xl">
                     The world changes. We change. The future changes.
                   </p>
                 </div>
 
-                <div className="flex tracking-wide text-xl text-white font-semibold ml-10 mt-20 mb-20">
+                <div className="flex tracking-wide text-xl text-white font-semibold mt-8">
                   <button
                     // href="/"
                     className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-lg font-bold py-2 px-5 rounded-full"
