@@ -20,13 +20,13 @@ function Contactus(): JSX.Element {
   };
   return (
   
-     <div className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-20"
-       style={{ backgroundImage: `url(${"./images/web/contact-bg.png"})` }}
+     <div className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-10"
+      // style={{ backgroundImage: `url(${"./images/web/contact-bg.png"})` }}
        >
       <h1 className="uppercase text-3xl font-bold text-[#ff0090] text-center py-10">
         Contact us
       </h1>
-      <div className=" bg-[#171717] relative mx-auto rounded-3xl w-1/2 mb-20 p-3 shadow-black shadow-md ">
+      <div className=" bg-[#171717] relative mx-auto rounded-3xl w-1/2  p-3 shadow-black shadow-md ">
         <form onSubmit={nextStep} className="overflow-auto">
         
           <div className="w-3/4 mx-auto">
@@ -101,13 +101,17 @@ function Contactus(): JSX.Element {
             </div>
           </div>
           <div className="text-center">
-            <button className="mt-5 mb-10  items-end cursor-pointer bg-[#ff0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-10 rounded-3xl shadow-md shadow-gray-800 ">
+            <button className="mt-5 mb-5 items-end cursor-pointer bg-[#ff0090] hover:bg-[#cc0274] text-white text-sm font-bold py-2 px-10 rounded-3xl shadow-md shadow-gray-800 ">
               Submit
             </button>
           </div>
          
         </form>
         
+      </div>
+
+      <div>
+        <img src="./images/web/world-bg.png" alt="world change bg" className="w-full"/>
       </div>
       </div>
   

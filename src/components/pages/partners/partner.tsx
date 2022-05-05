@@ -3,8 +3,8 @@ import React from "react";
 const Partner = (): JSX.Element => {
   return (
     <div
-      className="relative overflow-hidden mx-auto w-full h-full bg-cover bg-center container py-20 mb-20 px-10"
-      style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
+      className="relative overflow-hidden mx-auto w-full h-full bg-cover bg-center container py-20 px-10"
+     // style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
     >
       <h1 className="uppercase text-3xl font-bold text-[#ff0090] mb-5 text-center py-5">
         Projects
@@ -96,6 +96,9 @@ const Partner = (): JSX.Element => {
         <br /> <br />
         This is the foundation in which the operation and development of the SANDORA platform will be supported in the future.
         </p>
+      </div>
+      <div>
+        <img src="./images/web/world-change-text.png" alt="world change text" className="w-full"/>
       </div>
     </div>
   );
