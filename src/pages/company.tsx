@@ -3,8 +3,8 @@ function Company(): JSX.Element {
   return (
     <>
       <div
-        className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-20"
-        style={{ backgroundImage: `url(${"./images/web/company-bg.png"})` }}
+        className="relative overflow-hidden mx-auto w-full bg-cover bg-center container"
+        style={{ backgroundImage: `url(${"./images/web/bg-company.png"})` }}
       >
         <div className="flex flex-col justify-center items-center">
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
@@ -83,6 +83,9 @@ function Company(): JSX.Element {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <img src="./images/web/bg-world-change-top.png" alt="world change text top" className="w-full"/>
       </div>
     </>
   );

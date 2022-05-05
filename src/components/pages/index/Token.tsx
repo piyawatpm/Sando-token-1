@@ -48,7 +48,7 @@ const Token = (): JSX.Element => {
                 <a
                   href="/addsando"
                   className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-md font-bold py-2 px-8 rounded-full"
-                >
+              >
                   SANDO Details
                 </a>
                 <div className="mt-5 mb-20">
