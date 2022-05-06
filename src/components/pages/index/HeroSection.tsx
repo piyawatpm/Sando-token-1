@@ -1,38 +1,38 @@
 import React from "react";
 
 const HeroSection = (): JSX.Element => {
-
   const [showModal, setShowModal] = React.useState(false);
 
   return (
     <div className="relative overflow-hidden mx-auto w-full  mb-10 ">
       <div className=" flex-col justify-center items-center">
-        <div className="  bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 md:w-screen sm:w-screen lg:w-screen">
+        <div className="bg-black rounded-xl shadow-md overflow-hidden w-full">
           <div
             className=" overflow-hidden w-full py-5 mb-10  bg-cover bg-center "
             style={{ backgroundImage: `url(${"./images/web/bg.png"})` }}
           >
-            <div className="2xl:flex  xl:flex  justify-center items-center mx-auto container">
-              <div className="md:shrink-0 ">
-                <div className=" py-1 tracking-wide text-md text-white font-semibold 2xl:px-20 xl:px-20 lg:px-20 md:px-5 sm:px-5">
+            <div className="flex  justify-center items-center mx-auto container 2xl:py-40 xl:py-40 lg:py-40 md:py-20">
+              <div className="md:shrink-0 px-10">
+                <div className=" py-1 tracking-wide text-sm sm:text-sm md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-white font-semibold">
                   <h6 className="uppercase font-bold mb-5">
                     SANDO Token, The Token for oceansky, sandora and metasando
                   </h6>
                 </div>
 
-                <div className="text-white  2xl:px-20 xl:px-20 lg:px-20 md:px-5 sm:px-5">
-                  <h1 className="uppercase text-transparent textgradient  2xl:text-6xl  xl:text-6xl  lg:text-6xl sm:text-4xl md:text-4xl font-black mb-5 ">
+                <div className="text-white ">
+                  <h1 className="uppercase text-transparent textgradient text-4xl  sm:text-4xl 2xl:text-6xl xl:text-6xl lg:text-6xl md:xl:text-6xl font-black mb-5 ">
                     SANDO Growth with <br /> the world
                   </h1>
 
-                  <p className=" font-light text-xl">
+                  <p className=" font-light text-sm sm:text-sm md:text-xl lg:text-xl xl:text-xl 2xl:text-xl mb-8 lg:w-1/2">
                     The world changes. We change. The future changes.
                   </p>
                 </div>
 
-                <div className="flex tracking-wide text-xl text-white font-semibold mt-8 2xl:px-20 xl:px-20 lg:px-20 md:px-5 sm:px-5">
-                  <button
-                    // href="/"
+                <div className="sr-only sm:not-sr-only md:not-sr-only lg:not-sr-only  flex tracking-wide text-xl text-white font-semibold mt-8">
+                 <div>
+
+                 <button
                     className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-lg font-bold py-2 px-5 rounded-full"
                     onClick={() => setShowModal(true)}
                   >
@@ -40,13 +40,41 @@ const HeroSection = (): JSX.Element => {
                   </button>
 
                   <button
-                    // href="/create"
-
                     className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-10 rounded-full ml-5"
                     onClick={() => setShowModal(true)}
                   >
                     Buy
                   </button>
+                 </div>
+                 
+                  
+
+                  <div className=" relative -mt-40 right-0">
+                    <img src="/images/web/tokens.png" alt="" className="w-full h-60"/>
+                  </div>
+                </div>
+
+                <div className="my-40 relative sm:hidden md:hidden lg:hidden tracking-wide text-xl text-white font-semibold">
+                 <div className="relative">
+                 <button
+                    className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-lg font-bold py-2 px-7 rounded-full"
+                    onClick={() => setShowModal(true)}
+                  >
+                    Connect Wallet
+                  </button>
+                  <br />
+                  <button
+                    className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-20 rounded-full mt-5"
+                    onClick={() => setShowModal(true)}
+                  >
+                    Buy
+                  </button>
+                 </div>
+                  
+
+                  <div className="absolute -mt-20 top-0 right-0 sm:ml-10 md:ml-10 lg:ml-10 ">
+                    <img src="/images/web/tokens.png" alt="" className="h-full w-full"/>
+                  </div>
                 </div>
               </div>
 
@@ -152,47 +180,6 @@ const HeroSection = (): JSX.Element => {
                   <div className="backdrop-blur-lg fixed inset-0 z-40 "></div>
                 </>
               ) : null}
-
-              <div className="md:shrink-0 px-5 ml-10 mt-20">
-                {/*
-              <div className="flex tracking-wide w-full  md:w-full">
-                  <img
-                    src="/images/sandora-banner.gif"
-                    alt=" token image"
-                    className=""
-                  />
-                  
-                </div>
-
-              */}
-
-                <div className="flex tracking-wide w-full animate-bounce mt-20 md:w-full">
-                  <img
-                    src="/images/web/token1.png"
-                    alt=" token image"
-                    className="p-2 w-1/4 mt-5"
-                  />
-                  <img
-                    src="/images/web/token2.png"
-                    alt=" token image"
-                    className="p-10 w-1/4 sm:w-1/3 md:w-1/3"
-                  />
-                </div>
-                <div className="flex tracking-wide ml-16">
-                  <img
-                    src="/images/web/token3.png"
-                    alt=" token image"
-                    className="relative w-1/4 sm:w-1/3 md:w-1/4 px-5 ml-5 animate-bounce animation-delay-400"
-                  />
-                </div>
-                <div className="flex tracking-wide ml-2">
-                  <img
-                    src="/images/web/token4.png"
-                    alt=" token image"
-                    className="w-1/3 md:w-1/2"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>
