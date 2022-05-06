@@ -185,23 +185,23 @@ const Tokenomics = (): JSX.Element => {
 
     <div className="relative overflow-hidden mx-auto w-full container">
       <div className="flex flex-col justify-center items-center">
-        <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 px-10">
+        <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden ">
           <div
-            className="relative overflow-hidden mx-auto container flex py-5 mb-10 w-full bg-cover bg-center h-100 md:w-1/2 lg:w-full"
+            className="relative overflow-hidden mx-auto container flex py-5 mb-10 w-full bg-cover bg-center h-full rounded-2xl "
             style={{
               backgroundImage: `url(${'./images/web/bg-tokenomic.png'})`,
             }}
           >
             <div className="justify-center items-center px-10 py-5">
               <div className="">
-                <div className="py-5 text-xl text-white font-semibold px-10">
-                  <h1 className="uppercase text-[#FF0090] text-4xl font-black mt-10">
+                <div className="py-5 text-xl text-white font-semibold ">
+                  <h1 className="uppercase text-transparent textgradient  text-4xl font-black mt-10">
                     The Sando Tokenomics
                   </h1>
                 </div>
 
-                <h3 className="text-[#ffb700] text-xl font-bold px-10">Token Data</h3>
-                <div className="flex px-10">
+                <h3 className="text-[#ffb700] text-xl font-bold ">Token Data</h3>
+                <div className="flex ">
                   <h3 className="text-white text-lg font-medium">
                     Token Ticker :
                   </h3>
@@ -209,19 +209,19 @@ const Tokenomics = (): JSX.Element => {
                     SANDO TOKEN
                   </p>
                 </div>
-                <div className="flex px-10">
+                <div className="flex ">
                   <h3 className="text-white text-xl font-medium">Platform :</h3>
                   <p className="ml-2 text-white text-lg font-medium">
                     Oceansky, Sandora and Metasando
                   </p>
                 </div>
-                <div className="flex px-10">
+                <div className="flex">
                   <h3 className="text-white text-lg font-medium">
                     Token Standard :
                   </h3>
                   <p className="ml-2 text-white text-lg font-medium">ERC-20</p>
                 </div>
-                <div className="flex px-10">
+                <div className="flex">
                   <h3 className="text-white text-lg font-medium">
                     MAX Supply :
                   </h3>

@@ -8,8 +8,8 @@ const Gasfee = (): JSX.Element => {
           <div className="md:flex justify-center items-center ml-20">
 
             <div className="md:shrink-0 ml-20 w-3/4">
-              <div className="text-[#FF0090] py-10 ml-20">
-                <h1 className="uppercase text-5xl font-black px-20 ml-20 mb-10 mt-10 ">
+              <div className=" py-10 ml-20">
+                <h1 className="uppercase text-5xl font-black px-20 ml-20 mb-10 mt-10 text-transparent textgradient">
                   Gas Fees Token
                 </h1>
                 <div className="ml-20">
@@ -27,9 +27,9 @@ const Gasfee = (): JSX.Element => {
                 </div>
               </div>
 
-              <div className="text-[#FF0090] py-5 ml-20">
+              <div className=" py-5 ml-20">
                 <div className="ml-20">
-                  <h1 className="uppercase text-3xl font-black mb-10 mt-10 ml-20">
+                  <h1 className=" text-transparent textgradient text-3xl font-black mb-10 mt-10 ml-20">
                     What are gas fees?
                   </h1>
 
@@ -41,10 +41,10 @@ const Gasfee = (): JSX.Element => {
                 </div>
               </div>
 
-              <div className="text-[#FF0090] py-5 ml-20">
+              <div className="py-5 ml-20">
                 <div className="ml-20">
 
-                  <h1 className="uppercase text-3xl font-black ml-20 mb-10 mt-10 ">
+                  <h1 className="  text-transparent textgradient text-3xl font-black ml-20 mb-10 mt-10 ">
                     What is a Gwei?
                   </h1>
 
@@ -59,10 +59,10 @@ const Gasfee = (): JSX.Element => {
                 </div>
               </div>
 
-              <div className="text-[#FF0090] py-5 ml-20">
+              <div className="py-5 ml-20">
                 <div className="ml-20">
 
-                  <h1 className="uppercase text-3xl font-black ml-20 mb-10 mt-10 ">
+                  <h1 className=" text-transparent textgradient text-3xl font-black ml-20 mb-10 mt-10 ">
                     How Gwei Works?
                   </h1>
 
@@ -74,10 +74,10 @@ const Gasfee = (): JSX.Element => {
                 </div>
               </div>
 
-              <div className="text-[#FF0090] py-5  mb-20 ml-20">
+              <div className="py-5  mb-20 ml-20">
                 <div className="ml-20">
 
-                  <h1 className="uppercase text-3xl font-black ml-20 mb-10 mt-10 ">
+                  <h1 className="text-transparent textgradient text-3xl font-black ml-20 mb-10 mt-10 ">
                     How much do I need?
                   </h1>
 

@@ -25,21 +25,21 @@ const Token = (): JSX.Element => {
         </h1>
       </div>
       */}
-      <div className="flex flex-col justify-center items-center">
-        <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 px-10">
+      <div className="flex flex-col justify-center items-center ">
+        <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden ">
           <div
-            className="relative overflow-hidden mx-auto container flex py-5 mb-10 w-full bg-cover bg-center h-100 md:w-1/2 lg:w-full"
+            className="relative overflow-hidden mx-auto container flex py-5 mb-10 bg-cover bg-center h-100 w-full rounded-2xl "
             style={{ backgroundImage: `url(${'./images/web/bg-token.png'})` }}
           >
             <div className="md:flex justify-center items-center">
               <div className="md:shrink-0 px-10 py-5">
-                <div className="flex py-5 tracking-wide text-xl text-white font-semibold px-10">
-                  <h1 className="uppercase text-[#FF0090] text-4xl font-black mt-10  ">
+                <div className="flex py-5 tracking-wide text-xl text-white font-semibold">
+                  <h1 className="uppercase text-transparent textgradient text-4xl font-black mt-10  ">
                     SANDO Token
                   </h1>
                 </div>
 
-                <h1 className="text-xl font-light text-white mb-10 py-5 px-10 text-justify w-[600px]">
+                <h1 className="text-xl font-light text-white mb-10 py-5 pr-5 text-justify w-[600px] break-words">
                   Sando tokens are exchange and utility
                   tokens based on the ERC-20 standard use for crowdfunding within our 
                   ecosystem to build our company operations and platforms.
@@ -47,14 +47,14 @@ const Token = (): JSX.Element => {
                 </h1>
                 <a
                   href="/details"
-                  className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-md font-bold py-2 px-8 rounded-full ml-10"
-                >
+                  className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-md font-bold py-2 px-8 rounded-full"
+              >
                   SANDO Details
                 </a>
-                <div className="mt-8 mb-20">
+                <div className="mt-5 mb-20">
                 <button
                   
-                  className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-md font-bold py-2 px-10 rounded-full ml-10"
+                  className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-md font-bold py-2 px-10 rounded-full"
                   onClick={() => setShowModal(true)}
 
                 >

@@ -29,12 +29,8 @@ function Header(): JSX.Element {
 
              */}
             <ul className="sr-only xl:not-sr-only 2xl:not-sr-only hidden md:flex  mx-auto font-bold font-heading space-x-5">
-              <li>
-                <a className="hover:text-gray-200" href="/">
-                  Home
-                </a>
-              </li>
-              <li>
+            
+              <li className="ml-10">
                 <a className="hover:text-gray-200" href="/sale">
                   Tokensale
                 </a>
@@ -84,6 +80,14 @@ function Header(): JSX.Element {
                     href="#"
                   >
                     <span className="mr-2">Turkish</span>
+                  </a>
+                </li>
+                <li className="">
+                  <a
+                    className="flex rounded  hover:text-gray-300 py-2 px-4  block whitespace-no-wrap ml-2"
+                    href="#"
+                  >
+                    <span className="mr-2">Russian</span>
                   </a>
                 </li>
               </ul>

@@ -21,8 +21,8 @@ html {
 
 body {
  /* font-family: 'DM Sans', Helvetica, Arial, sans-serif;  */
-  min-height: 100vh;
-  max-width: 1920px;
+  /*min-height: 100vh;*/
+ /* max-width: 1920px;*/
   font-family: 'Be Vietnam Pro', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -82,7 +82,7 @@ body {
 }
 
 .herosec{
-  width: 1920px;
+  /*width: 1920px;*/
   left: 0;
   margin-left: 0;
   padding-left: 0;
@@ -364,4 +364,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.textgradient {
+  background: linear-gradient(45deg, #B703FF 10%, #FF0090
+  50%);
+  background-clip: text;
+}
+
+.textgradient-blue {
+  background: #00CDFA;
+  background: linear-gradient(to right, #00CDFA 0%, #39DB21 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }

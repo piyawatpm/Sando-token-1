@@ -2,11 +2,11 @@ import React from 'react'
 
 const Partners = (): JSX.Element => {
   return (
-    <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10">
-      <h1 className="uppercase text-[#FF0090] text-4xl font-black p-10">
-        Our Projects
+    <div className="relative overflow-hidden mx-auto w-full container pb-5 pt-0 mb-10 md:w-screen">
+      <h1 className="uppercase text-transparent textgradient text-3xl font-black py-10">
+        Our Partners
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-10 mr-10 text-black">
+      <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 text-black">
         <div className="lg:w-full md:w-90 h-64 ">
           <div
             className="lg:w-full md:w-90 h-40 overflow-auto rounded-t-lg bg-cover bg-center"

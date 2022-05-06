@@ -10,10 +10,10 @@ const staking = (): JSX.Element => {
               <div className="md:shrink-0 ml-20 w-2/3">
                 <div className="text-[#FF0090] py-10 ml-10">
                   <div className="ml-10 mt-5">
-                    <h1 className="font-extrabold text-4xl text-[#FF0090] mb-5">
+                    <h1 className="font-extrabold text-4xl text-transparent textgradient  mb-5">
                       HOW TO STAKE YOUR SANDO ?
                     </h1>
-                    <p className="uppercase font-medium text-2xl text-[#0ECF50]">
+                    <p className=" font-medium text-2xl">
                       Earn rewards while securing SANDO
                     </p>
                     <p className="font-light text-xl text-white mt-2 text-justify">
@@ -24,8 +24,8 @@ const staking = (): JSX.Element => {
                   </div>
                 </div>
 
-                <div className="text-[#FF0090] py-5 ml-20">
-                  <h1 className="uppercase text-3xl font-black">
+                <div className=" py-5 ml-20">
+                  <h1 className="uppercase text-transparent textgradient text-3xl font-black">
                     SANDO Staking
                   </h1>
 
@@ -42,8 +42,8 @@ const staking = (): JSX.Element => {
                   </p>
                 </div>
 
-                <div className="text-[#FF0090] py-5 ml-20">
-                  <h1 className="uppercase text-3xl font-black">
+                <div className="py-5 ml-20">
+                  <h1 className="text-transparent textgradient text-3xl font-black">
                     What is Staking?
                   </h1>
 
@@ -56,7 +56,7 @@ const staking = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5 ml-20">
-                  <h1 className="uppercase text-2xl font-medium">
+                  <h1 className="text-2xl font-medium">
                     What is Liquidity?
                   </h1>
 
@@ -84,7 +84,7 @@ const staking = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5 ml-20">
-                  <h1 className="uppercase text-2xl font-medium">
+                  <h1 className="text-2xl font-medium">
                     What is Market Price?
                   </h1>
 

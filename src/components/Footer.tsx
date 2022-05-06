@@ -41,7 +41,7 @@ const Footer = (): JSX.Element => {
                   <a target="_blank">
                     <img
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/FB.png"
+                      src="/images/social_media/fb.svg"
                       alt="facebook"
                     />
                   </a>
@@ -52,7 +52,7 @@ const Footer = (): JSX.Element => {
                     <img
 
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/Twitter.png"
+                      src="/images/social_media/twitter.svg"
                       alt="Twitter"
                     />
                   </a>
@@ -62,7 +62,7 @@ const Footer = (): JSX.Element => {
                     <img
 
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/Instagram.png"
+                      src="/images/social_media/instagram.svg"
                       alt="Instagram"
                     />
                   </a>
@@ -71,7 +71,7 @@ const Footer = (): JSX.Element => {
                   <a target="_blank">
                     <img
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/Youtube.png"
+                      src="/images/social_media/youtube.svg"
                       alt="Youtube"
                     />
                   </a>
@@ -81,7 +81,7 @@ const Footer = (): JSX.Element => {
                     <img
 
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/TikTok.png"
+                      src="/images/social_media/tiktok.svg"
                       alt="TikTok"
                     />
                   </a>
@@ -91,7 +91,7 @@ const Footer = (): JSX.Element => {
                   <a target="_blank">
                     <img
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/Linkedin.png"
+                      src="/images/social_media/linkedin.svg"
                       alt="Linkedin"
                     />
                   </a>
@@ -101,7 +101,7 @@ const Footer = (): JSX.Element => {
                   <a target="_blank">
                     <img
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/Discord.png"
+                      src="/images/social_media/discord.svg"
                       alt="Discord"
                     />
                   </a>
@@ -111,7 +111,7 @@ const Footer = (): JSX.Element => {
                     <img
 
                       className="h-10 w-10 hover:opacity-75"
-                      src="/images/social_media/Telegram.png"
+                      src="/images/social_media/telegram.svg"
                       alt="Telegram"
                     />
                   </a>
@@ -159,11 +159,11 @@ const Footer = (): JSX.Element => {
             */}
           </div>
           <div className="grid grid-cols-4 gap-4 mb-5 px-10 ml-8 mt-2">
-            <div className=" text-white ml-10">
-              <h5 className="text-[#ff0090] text-base font-bold pb-1">
+            <div className=" ml-10">
+              <h5 className="text-transparent textgradient text-base font-bold pb-1">
                 Resources
               </h5>
-              <ul>
+              <ul className="text-white">
                 <li>
                   <a
                     className="font-normal text-base hover:text-gray-200"
@@ -200,12 +200,12 @@ const Footer = (): JSX.Element => {
               </ul>
             </div>
             <div className="text-white ml-20">
-              <h5 className="text-[#ff0090] text-base font-bold pb-1">Token</h5>
+              <h5 className="text-transparent textgradient text-base font-bold pb-1">Token</h5>
               <ul>
                 <li>
                   <a
                     className="font-normal text-base hover:text-gray-200"
-                    href="/addsando"
+                    href="/details"
                   >
                     Sando
                   </a>
@@ -238,7 +238,7 @@ const Footer = (): JSX.Element => {
               </ul>
             </div>
             <div className="text-white ml-20">
-              <h5 className="text-[#ff0090] text-base font-bold pb-1">About</h5>
+              <h5 className="text-transparent textgradient text-base font-bold pb-1">About</h5>
               <ul>
                 <li>
                   <a
@@ -259,7 +259,7 @@ const Footer = (): JSX.Element => {
               </ul>
             </div>
             <div className="text-white ml-20">
-              <h5 className="text-[#ff0090] font-bold text-base pb-1">
+              <h5 className="text-transparent textgradient font-bold text-base pb-1">
                 Support
               </h5>
               <ul>

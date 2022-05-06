@@ -7,12 +7,12 @@ return<>
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center ml-20">
               <div className="md:shrink-0 ml-20 w-2/3">
-                <div className="text-[#FF0090] ml-10">
+                <div className=" ml-10">
                   <div className="ml-10 mt-10">
-                    <h1 className="uppercase font-extrabold text-4xl text-[#FF0090] mb-5">
+                    <h1 className="uppercase text-transparent textgradient font-extrabold text-4xl  mb-5">
                       Wallet
                     </h1>
-                    <p className="uppercase font-medium text-xl text-[#0ECF50]">
+                    <p className="font-medium text-xl text-[#0ECF50]">
                     The key to your digital future                    </p>
                     <p className="font-light text-xl text-white mt-2 text-justify">
                     Wallets give access to your funds and wallet applications. Only you should have access to your wallet.
@@ -20,8 +20,8 @@ return<>
                   </div>
                 </div>
 
-                <div className="text-[#FF0090] py-5 ml-20">
-                  <h1 className="uppercase text-3xl font-black">
+                <div className=" py-5 ml-20">
+                  <h1 className="uppercase text-transparent textgradient text-3xl font-black">
                   What's a Wallet?                  </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
