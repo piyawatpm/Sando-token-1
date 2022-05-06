@@ -19,16 +19,15 @@ function Contactus(): JSX.Element {
     setShow(!show);
   };
   return (
-  
-     <div className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-10"
+    <div
+      className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-10"
       // style={{ backgroundImage: `url(${"./images/web/contact-bg.png"})` }}
-       >
-      <h1 className="uppercase text-3xl font-bold text-[#ff0090] text-center py-10">
+    >
+      <h1 className="textgradient text-transparent text-3xl font-bold text-center py-10">
         Contact us
       </h1>
-      <div className=" bg-[#171717] relative mx-auto rounded-3xl w-1/2  p-3 shadow-black shadow-md ">
+      <div className="bg-[#171717] relative mx-auto rounded-3xl w-1/2  p-3 shadow-black shadow-md ">
         <form onSubmit={nextStep} className="overflow-auto">
-        
           <div className="w-3/4 mx-auto">
             <div className="mt-10">
               <label>
@@ -73,7 +72,6 @@ function Contactus(): JSX.Element {
                   PDF,PNG,JPEG Max file size 10MB.
                 </p>
                 <input
-               
                   onChange={handleImg}
                   id="upload_file"
                   type="file"
@@ -85,7 +83,6 @@ function Contactus(): JSX.Element {
                 file:bg-[#ff0090] file:text-white
                 hover:file:hover:bg-[#cc0274]"
                 />
-               
               </label>
             </div>
 
@@ -105,16 +102,17 @@ function Contactus(): JSX.Element {
               Submit
             </button>
           </div>
-         
         </form>
-        
       </div>
 
       <div>
-        <img src="./images/web/world-bg.png" alt="world change bg" className="w-full"/>
+        <img
+          src="./images/web/world-bg.png"
+          alt="world change bg"
+          className="w-full"
+        />
       </div>
-      </div>
-  
+    </div>
   );
 }
 

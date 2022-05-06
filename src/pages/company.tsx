@@ -48,7 +48,7 @@ function Company(): JSX.Element {
               </div>
               <div className="md:shrink-0 px-10 ml-5 py-10 mb-20">
                 <div className="flex py-1 tracking-wide text-sm text-white font-semibold">
-                  <h1 className="uppercase text-[#FF0090] text-3xl font-black ml-10 mb-10">
+                  <h1 className="uppercase text-transparent textgradient text-3xl font-black ml-10 mb-10">
                     Company
                   </h1>
                 </div>

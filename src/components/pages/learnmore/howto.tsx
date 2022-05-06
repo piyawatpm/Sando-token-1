@@ -9,7 +9,7 @@ const howto = (): JSX.Element => {
             <div className="md:flex justify-center items-center ml-10 px-10">
               <div className="md:shrink-0 w-2/3">
                 <div className="text-[#FF0090] py-5">
-                  <h1 className="uppercase text-3xl font-black">
+                  <h1 className="text-transparent textgradient  text-3xl font-black">
                     How to Stake your SANDO?
                   </h1>
 
@@ -20,7 +20,7 @@ const howto = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5">
-                  <h1 className="uppercase text-2xl font-medium">SANDO Staking </h1>
+                  <h1 className="text-2xl font-medium">SANDO Staking </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     SANDO staking on Ethereum is the platinum standard for
@@ -31,7 +31,7 @@ const howto = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50] py-5">
-                  <h1 className="uppercase text-2xl font-medium">Stake SANDO Today ! </h1>
+                  <h1 className="text-2xl font-medium">Stake SANDO Today ! </h1>
 
                   <p className=" font-light text-xl text-white text-justify">
                     Staking with a SANDO is as easy as a token swap. No need to
@@ -40,6 +40,21 @@ const howto = (): JSX.Element => {
                     operators to run validators. Rewards are then distributed to
                     contributors minus a fee for node operations.
                   </p>
+                </div>
+                <div className="flex">
+                  <a
+                    href="/details"
+                    className="cursor-pointer bg-[#FF0090] hover:bg-[#cc0274] text-white text-xl font-bold py-2 px-10 rounded-3xl shadow-md shadow-gray-800"
+                  >
+                    SANDO Details
+                  </a>
+
+                  <a
+                    href="/staking"
+                    className="ml-5 cursor-pointer bg-[#ffb700] hover:bg-[#fb8700] text-black text-xl font-bold py-2 px-10 rounded-3xl shadow-md shadow-gray-800"
+                  >
+                    Stake Now
+                  </a>
                 </div>
               </div>
 

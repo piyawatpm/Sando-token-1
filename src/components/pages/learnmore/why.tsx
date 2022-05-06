@@ -9,7 +9,7 @@ const why = (): JSX.Element => {
             <div className="md:flex justify-center items-center ml-20 px-10">
               <div className="md:shrink-0 w-2/3">
                 <div className="text-[#FF0090] py-5">
-                  <h1 className="uppercase text-3xl font-black mb-10 mt-10 ">
+                  <h1 className="text-transparent textgradient text-3xl font-black mb-10 mt-10 ">
                     Why Stake your SANDO?
                   </h1>
 
@@ -20,7 +20,7 @@ const why = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50]  py-5">
-                  <h1 className="uppercase text-2xl font-medium">Earn rewards </h1>
+                  <h1 className="text-2xl font-medium">Earn rewards </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     Rewards are given for actions that help the network reach
@@ -32,7 +32,7 @@ const why = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50]  py-5">
-                  <h1 className="uppercase text-2xl font-medium">Better security </h1>
+                  <h1 className="text-2xl font-medium">Better security </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     The network gets stronger against attacks as more SANDO is
@@ -44,7 +44,7 @@ const why = (): JSX.Element => {
                 </div>
 
                 <div className="text-[#0ECF50]  py-5">
-                  <h1 className="uppercase text-2xl font-medium">More sustainable </h1>
+                  <h1 className="text-2xl font-medium">More sustainable </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
                     Stakers don't need energy-intensive computers to participate

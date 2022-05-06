@@ -9,9 +9,9 @@ const Trust = (): JSX.Element => {
             <div className="md:flex justify-center items-center">
               <div className="md:shrink-0 w-2/3">
 
-                <div className="text-[#FF0090] ml-20 mt-10">
+                <div className="ml-20 mt-10">
                   <div className="flex">
-                    <h1 className="text-3xl font-black">Trust Wallet </h1>{" "}
+                    <h1 className="text-transparent textgradient text-3xl font-black">Trust Wallet </h1>{" "}
                     <img
                       src="/images/wallet/trust-wallet-icon.svg"
                       className="w-10 ml-2"

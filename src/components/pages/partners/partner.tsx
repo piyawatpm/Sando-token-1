@@ -6,13 +6,15 @@ const Partner = (): JSX.Element => {
       className="relative overflow-hidden mx-auto w-full h-full bg-cover bg-center container py-20 px-10"
      // style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
     >
-      <h1 className="uppercase text-3xl font-bold text-[#ff0090] mb-5 text-center py-5">
-
+      <h1 className="uppercase textgradient text-transparent  text-3xl font-bold  mb-5 text-center py-5">
         Projects
       </h1>
+     
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
+      
         <div className="lg:w-72 md:w-64  ">
           <div className="flex justify-center items-center lg:w-full md:w-90 overflow-auto rounded-t-lg bg-[#171717]">
+         
             <div className="flex flex-col justify-center items-center ">
               <img
                 src="./images/partner/sandora.svg"

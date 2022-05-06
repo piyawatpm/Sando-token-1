@@ -371,3 +371,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   50%);
   background-clip: text;
 }
+
+.textgradient-blue {
+  background: #00CDFA;
+  background: linear-gradient(to right, #00CDFA 0%, #39DB21 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}

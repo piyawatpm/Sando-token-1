@@ -8,9 +8,9 @@ const unique = (): JSX.Element => {
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center ml-10 px-10">
               <div className="md:shrink-0 w-2/3 mb-10">
-                <div className="text-[#FF0090] py-5 ml-20">
-                  <h1 className="uppercase text-3xl font-black">
-                    What's unique about SANDO?{" "}
+                <div className="py-5 ml-20">
+                  <h1 className="uppercase text-transparent textgradient text-3xl font-black">
+                    What's unique about SANDO?
                   </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">
@@ -89,7 +89,7 @@ const unique = (): JSX.Element => {
                     payments.{" "}
                   </p>
                 </div>
-                <div className="text-[#0ECF50] py-5 ml-20">
+                <div className="text-[#0ECF50] py-5 ml-20 mb-10">
                   <h1 className="uppercase text-2xl font-medium">
                     Available in flexible amounts
                   </h1>
@@ -99,7 +99,7 @@ const unique = (): JSX.Element => {
                   </p>
                 </div>
                 <a
-                  className="bg-[#41FA00] hover:bg-[#0ECF50] text-black text-lg font-bold py-2 px-10 rounded-full mt-5 mb-10 ml-20"
+                  className="bg-[#41FA00] hover:bg-[#0ECF50] text-black text-lg font-bold py-2 px-10 rounded-full mt-10 mb-10 ml-20"
                   href="/"
                 >
                   Back to homepage

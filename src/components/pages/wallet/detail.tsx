@@ -8,9 +8,9 @@ const detail = (): JSX.Element => {
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center ml-20">
               <div className="md:shrink-0  w-2/3">
-                <div className="text-[#FF0090]  ml-20">
-                  <h1 className="uppercase text-3xl font-black">
-                    Wallets, Accounts and Addresses{" "}
+                <div className=" ml-20">
+                  <h1 className="uppercase  text-transparent textgradient text-3xl font-black">
+                    Wallets, Accounts and Addresses
                   </h1>
 
                   <p className="mt-2 font-light text-xl text-white text-justify">

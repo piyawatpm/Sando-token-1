@@ -8,7 +8,7 @@ const Metamask = (): JSX.Element => {
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center">
               <div className="md:shrink-0 w-2/3">
-                <div className="text-[#FF0090] ml-10">
+                <div className="ml-10">
                   <div className="ml-10">
                     <h1 className="uppercase font-extrabold text-4xl text-[#0ECF50] mb-5">
                       GET A WALLET
@@ -16,9 +16,9 @@ const Metamask = (): JSX.Element => {
                   </div>
                 </div>
 
-                <div className="text-[#FF0090] ml-20">
+                <div className=" ml-20">
                   <div className="flex">
-                    <h1 className="text-3xl font-black">Metamask </h1>{" "}
+                    <h1 className="text-3xl font-black text-transparent textgradient">Metamask </h1>
                     <img
                       src="/images/wallets/metamask.svg"
                       className="w-10 ml-2"
@@ -30,7 +30,7 @@ const Metamask = (): JSX.Element => {
                     blockchain applications in seconds. Trusted by over 21
                     million users worldwide.
                   </p>
-                  <p className="uppercase font-medium text-xl text-[#0ECF50] mt-5">
+                  <p className="font-medium text-xl text-[#0ECF50] mt-5">
                     Buy, Store, Send and Swap Tokens{" "}
                   </p>
                   <p className="mt-2 font-light text-xl text-white text-justify">
