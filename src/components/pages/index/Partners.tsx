@@ -66,7 +66,8 @@ const Partners = (): JSX.Element => {
             <div className="">
               <a
                 //href="http://oceansky.io"
-                href="/comingsoon"
+                href="https://oceansky-project.ts.r.appspot.com/"
+                target="_blank"
                 className="mt-10 float-right bg-[#FB8700] hover:bg-[#c16f03] text-white text-sm font-black py-1 px-6 rounded-full"
               >
                 Join
@@ -100,7 +101,8 @@ const Partners = (): JSX.Element => {
             <div className="">
               <a
                // href="http://metasando.io"
-               href="/comingsoon"
+               href="https://meta-sando.ts.r.appspot.com/"
+               target="_blank"
                 className="mt-10 float-right bg-[#00D512] hover:bg-[#02c012] text-white text-sm font-black py-1 px-6 rounded-full"
               >
                 Join
