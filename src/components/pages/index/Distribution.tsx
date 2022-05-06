@@ -13,56 +13,8 @@ const Distribution = (): JSX.Element => {
         <div className="container">
           <table className="min-w-full flex flex-row flex-no-wrap sm:bg-black overflow-hidden sm:shadow-lg my-5">
             <thead className="text-white font-bold">
-              <tr  className=" flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0 bg-cover bg-top" style={{ backgroundImage: `url(${'./images/web/Rectangle-20.png'})` }}>
+              <tr  className=" flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0 bg-cover bg-top bg-no-repeat" style={{ backgroundImage: `url(${'./images/web/Rectangle-20.png'})` }}>
                 <th className="p-3">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
-                <th className="p-3 text-center">% of Total Supply</th>
-                <th className="p-3 text-center">Number of Tokens</th>
-                <th className="p-3 text-center">Vesting Period</th>
-              </tr>
-              <tr className="bg-[#ff0090] flex flex-col flex-no wrap sm:table-row rounded-l-xl sm:rounded-none mb-2 sm:mb-0">
-                <th className="p-3 text-center">Supply</th>
                 <th className="p-3 text-center">% of Total Supply</th>
                 <th className="p-3 text-center">Number of Tokens</th>
                 <th className="p-3 text-center">Vesting Period</th>
@@ -90,7 +42,7 @@ const Distribution = (): JSX.Element => {
                 </td>
               </tr>
 
-              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
+              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
                 <td className="hover:text-gray-400 p-3  text-left px-10 ">
                   Seed Sales
                 </td>
@@ -121,7 +73,7 @@ const Distribution = (): JSX.Element => {
                   Locked for 8 months <br /> from date of purchase
                 </td>
               </tr>
-              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
+              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
                   Pre-Sales (ICO)
                 </td>
@@ -153,7 +105,7 @@ const Distribution = (): JSX.Element => {
                 </td>
               </tr>
 
-              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
+              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
                 <td className="border-y-zinc-900 hover:text-gray-400 p-3  text-left px-10 ">
                   Public Sales (CEX)
                 </td>
@@ -183,7 +135,7 @@ const Distribution = (): JSX.Element => {
                 Fully unlocked
                 </td>
               </tr>
-              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
+              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover bg-no-repeat" style={{ backgroundImage: `url(${'./images/web/Rectangle-145.png'})` }}>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3  text-left px-10 ">
                   Pool liquidity
                 </td>
@@ -213,7 +165,7 @@ const Distribution = (): JSX.Element => {
                   Locked for 8 months
                 </td>
               </tr>
-              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover bg-bottom " style={{ backgroundImage: `url(${'./images/web/Rectangle-157.png'})` }}>
+              <tr className="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0 text-white font-roboto bg-cover bg-bottom bg-no-repeat" style={{ backgroundImage: `url(${'./images/web/Rectangle-157.png'})` }}>
                 <td className="border-y-zinc-900  hover:text-gray-400 p-3 text-left px-10 ">
                   Reserve
                 </td>

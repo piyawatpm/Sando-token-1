@@ -50,7 +50,7 @@ const Adding = (): JSX.Element => {
                   <h3 className="text-[#c4c4c4] text-lg font-normal">
                   Address 
                   </h3>
-                  <p className="ml-2 text-white text-lg font-medium">:</p>
+                  <p className="ml-2 text-white text-lg font-medium">: 0x98401e4314E069c06078e76D62CA4141621BF414</p>
                 </div>
                 </div>
        
