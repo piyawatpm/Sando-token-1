@@ -4,7 +4,7 @@ const Howto = (): JSX.Element => {
   const [showModal, setShowModal] = React.useState(false);
 
   return (
-    <div className="relative overflow-hidden mx-auto w-full">
+    <div className="relative overflow-hidden mx-auto w-full container px-5 ">
       <div className="flex flex-col justify-center items-center">
         <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
           <div
@@ -13,7 +13,7 @@ const Howto = (): JSX.Element => {
               backgroundImage: `url(${"./images/web/bg-howto-staking.svg"})`,
             }}
           >
-            <div className="md:flex justify-center items-center">
+            <div className="md:flex justify-center items-center break-words pr-5">
               <div className="md:shrink-0 px-10 py-5">
                 <div className="flex py-5 tracking-wide text-xl text-white font-semibold">
                   <h1 className="uppercase text-transparent textgradient text-4xl font-black mt-10  ">

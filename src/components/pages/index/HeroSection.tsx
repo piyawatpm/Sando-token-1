@@ -13,15 +13,15 @@ const HeroSection = (): JSX.Element => {
             style={{ backgroundImage: `url(${"./images/web/bg.png"})` }}
           >
             <div className="2xl:flex  xl:flex  justify-center items-center mx-auto container">
-              <div className="md:shrink-0 px-10 ml-20">
-                <div className=" py-1 tracking-wide text-sm text-white font-semibold">
+              <div className="md:shrink-0 ">
+                <div className=" py-1 tracking-wide text-md text-white font-semibold 2xl:px-20 xl:px-20 lg:px-20 md:px-5 sm:px-5">
                   <h6 className="uppercase font-bold mb-5">
                     SANDO Token, The Token for oceansky, sandora and metasando
                   </h6>
                 </div>
 
-                <div className="text-white  ">
-                  <h1 className="uppercase text-transparent textgradient  sm:text-3xl md:text-6xl lg:text-6xl 2xl:text-6xl font-black mb-5 ">
+                <div className="text-white  2xl:px-20 xl:px-20 lg:px-20 md:px-5 sm:px-5">
+                  <h1 className="uppercase text-transparent textgradient  2xl:text-6xl  xl:text-6xl  lg:text-6xl sm:text-4xl md:text-4xl font-black mb-5 ">
                     SANDO Growth with <br /> the world
                   </h1>
 
@@ -30,7 +30,7 @@ const HeroSection = (): JSX.Element => {
                   </p>
                 </div>
 
-                <div className="flex tracking-wide text-xl text-white font-semibold mt-8">
+                <div className="flex tracking-wide text-xl text-white font-semibold mt-8 2xl:px-20 xl:px-20 lg:px-20 md:px-5 sm:px-5">
                   <button
                     // href="/"
                     className="bg-[#FF0090] hover:bg-[#cc0274] text-white text-lg font-bold py-2 px-5 rounded-full"
@@ -141,7 +141,7 @@ const HeroSection = (): JSX.Element => {
                         <div className="flex items-center justify-center px-10">
                           <a
                             href="/wallet"
-                            className="mt-2 mb-5 w-48 inline-block text-center px-6 py-1 bg-[#FF0090] hover:bg-[#cc0274] text-white text-xl font-bold font-bold leading-normal rounded-full shadow-md hover:shadow-lg focus:bg-[#cc0274] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#cc0274] active:shadow-lg transition duration-150 ease-in-out"
+                            className="mt-2 mb-5 w-48 inline-block text-center px-6 py-1 bg-[#FF0090] hover:bg-[#cc0274] text-white text-xl  ffont-boldont-bold leading-normal rounded-full shadow-md hover:shadow-lg focus:bg-[#cc0274] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#cc0274] active:shadow-lg transition duration-150 ease-in-out"
                           >
                             Learn More
                           </a>

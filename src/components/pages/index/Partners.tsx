@@ -2,7 +2,7 @@ import React from 'react'
 
 const Partners = (): JSX.Element => {
   return (
-    <div className="relative overflow-hidden mx-auto w-full container pb-5 pt-0 mb-10 md:w-screen">
+    <div className="relative overflow-hidden mx-auto w-full container pb-5 pt-0 mb-10 sm:w-screen md:w-screen px-5">
       <h1 className="uppercase text-transparent textgradient text-3xl font-black py-10">
         Our Partners
       </h1>
