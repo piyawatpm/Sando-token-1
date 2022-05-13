@@ -1,6 +1,4 @@
-# Oceansky.io
-
-NFT Marketplace
+# SANDOToken.io
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]
 
@@ -8,20 +6,20 @@ NFT Marketplace
 
 ## Demo
 
-- [Website](https://oceansky.io)
+- [Website](https://www.sandotoken.io)
 
 ## Run Locally
 
 - Clone the project
 
   ```bash
-  git clone git@gitlab.com:sando-io/oceansky-io/web-oceansky-io.git
+  git clone https://github.com/sukonrat/Sando-token.git
   ```
 
 - Go to the project directory
 
   ```bash
-    cd web-oceansky-io
+    cd Sando-Token
   ```
 
 - Install dependencies
