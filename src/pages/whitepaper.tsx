@@ -15,7 +15,7 @@ function Whitepaper(): JSX.Element {
     <>
       <div className="h-screen">
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.min.js">
-        <Viewer fileUrl="./pdf/Sando-Token.pdf"  theme={{
+        <Viewer fileUrl="../pdf/Sando-Token.pdf"  theme={{
         theme: 'dark',
     }}/>;
 </Worker>
