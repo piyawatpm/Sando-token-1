@@ -2,15 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/projects": "pages/projects.js",
-  "/staking": "pages/staking.js",
-  "/gasfee": "pages/gasfee.js",
-  "/wallet": "pages/wallet.js",
-  "/details": "pages/details.js",
-  "/sale": "pages/sale.js",
-  "/buy": "pages/buy.js",
-  "/company": "pages/company.js",
-  "/contactus": "pages/contactus.js",
-  "/help": "pages/help.js"
+  "/": "pages/index.js"
 }
