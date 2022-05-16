@@ -379,3 +379,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   -webkit-text-fill-color: transparent;
   
 }
+
+.textgradient-yellow {
+  background: #FFB700;
+  background: linear-gradient(to right, #FFB700 0%, #F6851B 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}

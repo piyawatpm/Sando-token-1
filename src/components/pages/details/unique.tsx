@@ -8,6 +8,18 @@ const unique = (): JSX.Element => {
           <div className="relative rounded-xl shadow-md overflow-hidden md:min-w-1/2">
             <div className="md:flex justify-center items-center ml-10 px-10">
               <div className="md:shrink-0 w-2/3 mb-10">
+              <div className="ml-10 px-5">
+                    <h1 className="uppercase font-extrabold text-4xl text-transparent textgradient mb-5 ml-5">
+                      Where to buy SANDO?
+                    </h1>
+                 
+                  <p className=" mt-2 font-light text-xl text-white text-justify ml-5">
+                    You can buy SANDO Token from our website directly.{" "}
+                  </p>
+                  <button className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-10 rounded-full mt-5 mb-10 ml-5">
+                    Buy Now{" "}
+                  </button>
+                </div>
                 <div className="py-5 ml-20">
                   <h1 className="uppercase text-transparent textgradient text-3xl font-black">
                     What's unique about SANDO?

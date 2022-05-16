@@ -2,6 +2,7 @@ import MainLayout from "src/layout/MainLayout";
 
 import Address from "@/components/pages/details/address";
 import What from "@/components/pages/details/what";
+import Howto from "@/components/pages/details/howto"
 import Unique from "@/components/pages/details/unique";
 function Details(): JSX.Element {
   return (
@@ -12,6 +13,7 @@ function Details(): JSX.Element {
       >
         <Address />
         <What />
+        <Howto/>
         <Unique />
       </div>
     </>

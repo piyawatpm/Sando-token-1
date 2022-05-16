@@ -11,13 +11,13 @@ const Roadmap = (): JSX.Element => {
           >
             <div className="justify-center items-center px-10 py-5 ">
               <div className="">
-                <div className="py-5 text-xl text-white font-semibold ">
-                  <h1 className="uppercase text-transparent textgradient text-4xl  mt-10">
+                <div className="py-5 text-xl text-white font-semibold ml-10">
+                  <h1 className="uppercase text-transparent textgradient text-4xl  mt-10 font-black">
                     Roadmap Token
                   </h1>
                 </div>
 
-                <div className="md:flex items-center justify-center break-words">
+                <div className="md:flex items-center justify-center break-words  ml-20">
                   <div className="md:shrink-0 ">
                     <div className="flex py-1 text-xl text-white font-semibold">
                       <div className="flex">

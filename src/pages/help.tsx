@@ -4,7 +4,7 @@ function Help(): JSX.Element {
     <>
       <div className="relative overflow-hidden mx-auto w-full  container px-20">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="uppercase text-3xl font-black text-[#ff0090] mb-5 text-center py-5">
+          <h1 className="uppercase text-3xl font-black text-transparent textgradient mb-5 text-center py-5">
             Help centre
           </h1>
           <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 ml-20 mr-10 text-black">
@@ -56,7 +56,7 @@ function Help(): JSX.Element {
                     alt="sando logo"
                     className="w-12 h-12"
                   />
-                  <h1 className="text-4xl font-black text-[#ffb700] mt-2 cursor-poiter ml-2 mb-2 ">
+                  <h1 className="text-4xl font-black text-transparent textgradient mt-2 cursor-poiter ml-2 mb-2 ">
                     Add SANDO token in your METAMASK
                   </h1>
                   <img

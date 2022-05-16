@@ -31,19 +31,7 @@ const What = (): JSX.Element => {
                     How to add SANDO
                   </a>
                 </div>
-                <div className="ml-20 px-5">
-                  <div className="ml-20 ">
-                    <h1 className="uppercase font-extrabold text-4xl text-transparent textgradient mb-5">
-                      Where to buy SANDO?
-                    </h1>
-                  </div>
-                  <p className="ml-20 mt-2 font-light text-xl text-white text-justify">
-                    You can buy SANDO Token from our website directly.{" "}
-                  </p>
-                  <button className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-10 rounded-full mt-5 mb-10 ml-20">
-                    Buy Now{" "}
-                  </button>
-                </div>
+              
               </div>
 
               <div className="md:shrink-0 mb-10 mt-5">

@@ -6,7 +6,7 @@ const Partner = (): JSX.Element => {
       className="relative overflow-hidden mx-auto w-full h-full bg-cover bg-center container py-20 px-10"
      // style={{ backgroundImage: `url(${"./images/partner/bg-partner.png"})` }}
     >
-      <h1 className="uppercase textgradient text-transparent  text-3xl font-bold  mb-5 text-center py-5">
+      <h1 className="uppercase text-transparent textgradient text-3xl font-bold  mb-5 text-center py-5">
         Projects
       </h1>
      
