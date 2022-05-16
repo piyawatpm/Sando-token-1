@@ -1,4 +1,4 @@
-import { slide as Menu } from "react-burger-menu";
+// import { slide as Menu } from "react-burger-menu";
 import React, { useState, useEffect, useRef } from "react";
 
 export default (props: any) => {
@@ -6,6 +6,8 @@ export default (props: any) => {
   return (
     // Pass on our props
     <>
+
+    {/*  
       <Menu right width={"100%"}>
         <a
           href=""
@@ -44,6 +46,7 @@ export default (props: any) => {
                 Connect Wallet
               </button>
       </Menu>
+      */}
     </>
   );
 };

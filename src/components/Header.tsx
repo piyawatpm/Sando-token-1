@@ -48,7 +48,7 @@ function Header(): JSX.Element {
                 </a>
               </li>
               <li>
-                <a className="hover:text-gray-200 mr-5" href="/whitepaper">
+                <a className="hover:text-gray-200 mr-5" href="https://www.sandotoken.io/pdf/Sando-Token.pdf" target="_blank">
                   Whitepaper
                 </a>
               </li>

@@ -176,7 +176,8 @@ const Footer = (): JSX.Element => {
                 <li>
                   <a
                     className="font-normal text-base hover:text-gray-200"
-                    href="/comingsoon"
+                    href="https://www.sandotoken.io/pdf/Sando-Token.pdf"
+                    target="_blank"
                   >
                     Whitepaper
                   </a>

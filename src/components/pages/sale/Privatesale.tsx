@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react'
 
 const Privatesale = (): JSX.Element => {
   return (
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-20 px-20">
       <div className="flex flex-col justify-center items-center mb-20">
-        <h1 className="uppercase text-4xl text-[#FF0090] font-bold py-5 mb-10">
+          <h1 className="uppercase text-4xl text-[#FF0090] font-bold py-5 mb-10">
           token private sale
         </h1>
         <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2">
           <div
             className="relative overflow-hidden mx-auto w-full container flex py-5 mb-10  bg-cover bg-center md:w-1/2 lg:w-full"
             style={{
-              backgroundImage: `url(${"./images/privatesale/sando-banner.png"})`,
+              backgroundImage: `url(${'./images/privatesale/sando-banner.png'})`,
             }}
           >
-            <div className="md:flex justify-center items-center">
+              <div className="md:flex justify-center items-center">
               <div className="md:shrink-0 px-5">
                 <div className="flex py-1 tracking-wide text-xl font-semibold ml-20">
                   <h1 className="text-4xl font-bold text-[#FF0090]  mt-10 my-5">
@@ -26,13 +26,11 @@ const Privatesale = (): JSX.Element => {
                   <div className=" ml-20 p-10">
                     <ol className="relative border-l border-blue-200 dark:border-blue-700">
                       <li className="mb-10 ml-4">
-                        <div className="absolute w-8 h-8 bg-[#FF0090] rounded-full -left-4 border-8 border-blue dark:border-blue-900 dark:bg-pink-700">
-                          <div className="absolute w-4 h-4 bg-[#ffffff] rounded-full top-0.1 left-0.1"></div>
-                        </div>
-                        <h3 className="text-xl font-semibold text-[#ffb700]  ml-2">
+                        <div className="absolute w-8 h-8 bg-[#FF0090] rounded-full -left-4 border-8 border-blue dark:border-blue-900 dark:bg-pink-700"></div>
+                        <h3 className="text-lg font-semibold text-white  ml-2">
                           Seed Round
                         </h3>
-                        <p className="mb-4 text-lg font-normal text-white ml-2">
+                        <p className="mb-4 text-base font-normal text-white ml-2">
                           0.0009 USD
                         </p>
                       </li>
@@ -46,10 +44,12 @@ const Privatesale = (): JSX.Element => {
                         </p>
                       </li>
                       <li className="mb-10 ml-4">
-                        <div className="absolute w-8 h-8 bg-[#FF0090] rounded-full -left-4 border-8 border-blue dark:border-blue-900 dark:bg-pink-700"></div>
+                        <div className="absolute w-8 h-8 bg-[#FF0090] rounded-full -left-4 border-8 border-blue dark:border-blue-900 dark:bg-pink-700">
+                          <div className="absolute w-3 h-3 bg-[#ffffff] rounded-full top-0.5 left-0.5"></div>
+                        </div>
 
                         <h3 className="text-lg font-semibold text-white ml-2">
-                          Pre-sale (ICO) Round
+                          ICO Round
                         </h3>
                         <p className="mb-4 text-base font-normal text-white  ml-2">
                           0.0020 USD
@@ -70,7 +70,7 @@ const Privatesale = (): JSX.Element => {
                           Market
                         </h3>
                         <p className="mb-4 text-base font-normal text-white ml-2">
-                          To Mars
+                          To the Mars
                         </p>
                       </li>
                     </ol>
@@ -91,7 +91,8 @@ const Privatesale = (): JSX.Element => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Privatesale;
+export default Privatesale
+
